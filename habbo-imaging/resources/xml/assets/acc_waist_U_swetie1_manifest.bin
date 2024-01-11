@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><manifest>
+  <library name="acc_waist_U_swetie1" version="0.1">
+    <assets>
+      <asset name="h_std_wa_1770_7_0" mimeType="image/png">
+        <param key="offset" value="-17,26"/>
+      </asset>
+      <asset name="h_std_wa_1770_3_0" mimeType="image/png">
+        <param key="offset" value="-17,27"/>
+      </asset>
+      <asset name="h_std_wa_1770_2_0" mimeType="image/png">
+        <param key="offset" value="-20,31"/>
+      </asset>
+      <asset name="h_std_wa_1770_1_0" mimeType="image/png">
+        <param key="offset" value="-22,24"/>
+      </asset>
+      <asset name="h_std_wa_1770_0_0" mimeType="image/png">
+        <param key="offset" value="-17,30"/>
+      </asset>
+      <asset name="h_std_wa_1771_7_0" mimeType="image/png">
+        <param key="offset" value="-18,24"/>
+      </asset>
+      <asset name="h_std_wa_1771_3_0" mimeType="image/png">
+        <param key="offset" value="-30,23"/>
+      </asset>
+      <asset name="h_std_wa_1771_2_0" mimeType="image/png">
+        <param key="offset" value="-30,29"/>
+      </asset>
+      <asset name="h_std_wa_1771_1_0" mimeType="image/png">
+        <param key="offset" value="-33,22"/>
+      </asset>
+      <asset name="h_std_wa_1771_0_0" mimeType="image/png">
+        <param key="offset" value="-18,28"/>
+      </asset>
+      <asset name="h_std_wa_1772_7_0" mimeType="image/png">
+        <param key="offset" value="-19,27"/>
+      </asset>
+      <asset name="h_std_wa_1772_3_0" mimeType="image/png">
+        <param key="offset" value="-17,29"/>
+      </asset>
+      <asset name="h_std_wa_1772_2_0" mimeType="image/png">
+        <param key="offset" value="-21,30"/>
+      </asset>
+      <asset name="h_std_wa_1772_1_0" mimeType="image/png">
+        <param key="offset" value="-24,23"/>
+      </asset>
+      <asset name="h_std_wa_1772_0_0" mimeType="image/png">
+        <param key="offset" value="-18,29"/>
+      </asset>
+      <asset name="h_lay_wa_1770_2_0" mimeType="image/png">
+        <param key="offset" value="-16,15"/>
+      </asset>
+      <asset name="h_lay_wa_1771_2_0" mimeType="image/png">
+        <param key="offset" value="-19,13"/>
+      </asset>
+      <asset name="h_lay_wa_1772_2_0" mimeType="image/png">
+        <param key="offset" value="-13,14"/>
+      </asset>
+      <asset name="sh_std_wa_1770_7_0" mimeType="image/png">
+        <param key="offset" value="-8,13"/>
+      </asset>
+      <asset name="sh_std_wa_1770_3_0" mimeType="image/png">
+        <param key="offset" value="-7,12"/>
+      </asset>
+      <asset name="sh_std_wa_1770_2_0" mimeType="image/png">
+        <param key="offset" value="-9,16"/>
+      </asset>
+      <asset name="sh_std_wa_1770_1_0" mimeType="image/png">
+        <param key="offset" value="-11,13"/>
+      </asset>
+      <asset name="sh_std_wa_1770_0_0" mimeType="image/png">
+        <param key="offset" value="-8,16"/>
+      </asset>
+      <asset name="sh_std_wa_1771_7_0" mimeType="image/png">
+        <param key="offset" value="-9,12"/>
+      </asset>
+      <asset name="sh_std_wa_1771_3_0" mimeType="image/png">
+        <param key="offset" value="-13,11"/>
+      </asset>
+      <asset name="sh_std_wa_1771_2_0" mimeType="image/png">
+        <param key="offset" value="-13,15"/>
+      </asset>
+      <asset name="sh_std_wa_1771_1_0" mimeType="image/png">
+        <param key="offset" value="-16,13"/>
+      </asset>
+      <asset name="sh_std_wa_1771_0_0" mimeType="image/png">
+        <param key="offset" value="-8,16"/>
+      </asset>
+      <asset name="sh_std_wa_1772_7_0" mimeType="image/png">
+        <param key="offset" value="-9,15"/>
+      </asset>
+      <asset name="sh_std_wa_1772_3_0" mimeType="image/png">
+        <param key="offset" value="-7,15"/>
+      </asset>
+      <asset name="sh_std_wa_1772_2_0" mimeType="image/png">
+        <param key="offset" value="-9,15"/>
+      </asset>
+      <asset name="sh_std_wa_1772_1_0" mimeType="image/png">
+        <param key="offset" value="-11,12"/>
+      </asset>
+      <asset name="sh_std_wa_1772_0_0" mimeType="image/png">
+        <param key="offset" value="-9,15"/>
+      </asset>
+      <asset name="sh_lay_wa_1770_2_0" mimeType="image/png">
+        <param key="offset" value="-5,8"/>
+      </asset>
+      <asset name="sh_lay_wa_1771_2_0" mimeType="image/png">
+        <param key="offset" value="-8,8"/>
+      </asset>
+      <asset name="sh_lay_wa_1772_2_0" mimeType="image/png">
+        <param key="offset" value="-5,7"/>
+      </asset>
+    </assets>
+  </library>
+</manifest>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><assets>
+  <asset name="haloompa_64_sd_0_0" x="15" y="8" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_0" x="17" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_0" x="13" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_0" x="16" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_100" x="14" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_101" x="13" y="57" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_102" x="18" y="57" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_103" x="21" y="59" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_100" x="19" y="49" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_101" x="22" y="50" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_102" x="15" y="49" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_103" x="14" y="48" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_100" x="17" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_101" x="17" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_102" x="19" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_103" x="24" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_100" x="13" y="57" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_101" x="22" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_102" x="15" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_103" x="20" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_100" x="14" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_101" x="17" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_102" x="17" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_103" x="24" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_200" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_200" x="17" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_200" x="13" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_300" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_301" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_300" x="17" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_301" x="17" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_300" x="14" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_301" x="14" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_400" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_401" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_402" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_403" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_500" x="18" y="42" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_500" x="19" y="40" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_501" x="19" y="40" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_600" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_601" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_701" x="16" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_702" x="13" y="51" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_703" x="13" y="51" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_701" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_702" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_703" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_801" x="26" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_802" x="22" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_801" x="24" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_802" x="27" y="57" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_801" x="25" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_802" x="32" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_801" x="24" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_802" x="31" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_901" x="19" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_902" x="19" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_901" x="19" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_902" x="19" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_901" x="16" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_902" x="16" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_200" source="haloompa_64_a_7_0" x="16" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_200" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_300" source="haloompa_64_a_7_0" x="16" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_301" source="haloompa_64_a_7_0" x="16" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_300" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_301" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_501" source="haloompa_64_a_0_500" x="18" y="42" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_603" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_700" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_700" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_800" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_800" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_800" source="haloompa_64_a_3_0" x="17" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_800" source="haloompa_64_a_7_0" x="16" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_900" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_901" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_902" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_2_900" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_900" source="haloompa_64_a_3_0" x="17" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_900" source="haloompa_64_a_7_0" x="16" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_lay-out_2_0" source="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_lay-out_2_1" source="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_sd_1_0" source="haloompa_64_sd_0_0" x="15" y="8" usesPalette="1"/>
+  <asset name="haloompa_64_sd_2_0" flipH="1" source="haloompa_64_sd_0_0" x="15" y="8" usesPalette="1"/>
+  <asset name="haloompa_64_sd_3_0" flipH="1" source="haloompa_64_sd_0_0" x="15" y="8" usesPalette="1"/>
+  <asset name="haloompa_64_sd_4_0" source="haloompa_64_sd_0_0" x="15" y="8" usesPalette="1"/>
+  <asset name="haloompa_64_sd_5_0" source="haloompa_64_sd_0_0" x="15" y="8" usesPalette="1"/>
+  <asset name="haloompa_64_sd_6_0" flipH="1" source="haloompa_64_sd_0_0" x="15" y="8" usesPalette="1"/>
+  <asset name="haloompa_64_sd_7_0" source="haloompa_64_sd_0_0" x="15" y="8" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_0" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_0" flipH="1" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_0" flipH="1" source="haloompa_64_a_1_0" x="13" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_100" flipH="1" source="haloompa_64_a_0_100" x="14" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_101" flipH="1" source="haloompa_64_a_0_101" x="17" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_102" flipH="1" source="haloompa_64_a_0_102" x="17" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_103" flipH="1" source="haloompa_64_a_0_103" x="24" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_100" flipH="1" source="haloompa_64_a_2_100" x="17" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_101" flipH="1" source="haloompa_64_a_2_101" x="17" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_102" flipH="1" source="haloompa_64_a_2_102" x="19" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_103" flipH="1" source="haloompa_64_a_2_103" x="24" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_100" flipH="1" source="haloompa_64_a_1_100" x="13" y="57" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_101" flipH="1" source="haloompa_64_a_1_101" x="22" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_102" flipH="1" source="haloompa_64_a_1_102" x="15" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_103" flipH="1" source="haloompa_64_a_1_103" x="20" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_300" flipH="1" source="haloompa_64_a_2_300" x="17" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_301" flipH="1" source="haloompa_64_a_2_301" x="17" y="52" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_300" flipH="1" source="haloompa_64_a_1_300" x="14" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_301" flipH="1" source="haloompa_64_a_1_301" x="14" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_300" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_301" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_400" source="haloompa_64_a_2_400" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_401" source="haloompa_64_a_2_401" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_402" source="haloompa_64_a_2_402" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_403" source="haloompa_64_a_2_403" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_400" source="haloompa_64_a_2_400" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_401" source="haloompa_64_a_2_401" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_402" source="haloompa_64_a_2_402" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_403" source="haloompa_64_a_2_403" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_400" source="haloompa_64_a_2_400" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_401" source="haloompa_64_a_2_401" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_402" source="haloompa_64_a_2_402" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_403" source="haloompa_64_a_2_403" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_400" source="haloompa_64_a_2_400" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_401" source="haloompa_64_a_2_401" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_402" source="haloompa_64_a_2_402" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_403" source="haloompa_64_a_2_403" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_400" source="haloompa_64_a_2_400" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_401" source="haloompa_64_a_2_401" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_402" source="haloompa_64_a_2_402" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_403" source="haloompa_64_a_2_403" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_400" source="haloompa_64_a_2_400" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_401" source="haloompa_64_a_2_401" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_402" source="haloompa_64_a_2_402" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_403" source="haloompa_64_a_2_403" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_400" source="haloompa_64_a_2_400" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_401" source="haloompa_64_a_2_401" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_402" source="haloompa_64_a_2_402" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_403" source="haloompa_64_a_2_403" x="16" y="45" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_500" flipH="1" source="haloompa_64_a_0_500" x="18" y="42" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_501" flipH="1" source="haloompa_64_a_0_500" x="18" y="42" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_500" flipH="1" source="haloompa_64_a_2_500" x="19" y="40" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_501" flipH="1" source="haloompa_64_a_2_501" x="19" y="40" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_500" source="haloompa_64_a_2_500" x="19" y="40" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_501" source="haloompa_64_a_2_501" x="19" y="40" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_500" source="haloompa_64_a_2_500" x="19" y="40" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_501" source="haloompa_64_a_2_501" x="19" y="40" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_500" flipH="1" source="haloompa_64_a_0_500" x="18" y="42" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_501" flipH="1" source="haloompa_64_a_0_500" x="18" y="42" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_500" flipH="1" source="haloompa_64_a_0_500" x="18" y="42" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_501" flipH="1" source="haloompa_64_a_0_500" x="18" y="42" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_600" source="haloompa_64_a_2_600" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_601" source="haloompa_64_a_2_601" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_602" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_603" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_600" source="haloompa_64_a_2_600" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_601" source="haloompa_64_a_2_601" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_602" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_603" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_600" source="haloompa_64_a_2_600" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_601" source="haloompa_64_a_2_601" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_602" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_603" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_600" flipH="1" source="haloompa_64_a_2_600" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_601" flipH="1" source="haloompa_64_a_2_601" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_602" flipH="1" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_603" flipH="1" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_600" flipH="1" source="haloompa_64_a_2_600" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_601" flipH="1" source="haloompa_64_a_2_601" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_602" flipH="1" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_603" flipH="1" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_600" flipH="1" source="haloompa_64_a_2_600" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_601" flipH="1" source="haloompa_64_a_2_601" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_602" flipH="1" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_603" flipH="1" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_600" flipH="1" source="haloompa_64_a_2_600" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_601" flipH="1" source="haloompa_64_a_2_601" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_602" flipH="1" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_603" flipH="1" source="haloompa_64_a_2_602" x="23" y="28" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_1000" source="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_a_0_1001" source="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_1000" source="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_1001" source="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_1000" source="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_1001" source="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_1000" flipH="1" source="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_1001" flipH="1" source="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_1000" flipH="1" source="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_1001" flipH="1" source="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_1000" flipH="1" source="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_1001" flipH="1" source="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_1000" flipH="1" source="haloompa_64_a_2_1000" x="21" y="44" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_1001" flipH="1" source="haloompa_64_a_2_1001" x="29" y="31" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_801" flipH="1" source="haloompa_64_a_0_801" x="26" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_802" flipH="1" source="haloompa_64_a_0_802" x="22" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_800" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_801" flipH="1" source="haloompa_64_a_2_801" x="24" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_802" flipH="1" source="haloompa_64_a_2_802" x="27" y="57" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_800" flipH="1" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_801" source="haloompa_64_a_2_801" x="24" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_802" source="haloompa_64_a_2_802" x="27" y="57" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_800" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_801" flipH="1" source="haloompa_64_a_0_801" x="26" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_802" flipH="1" source="haloompa_64_a_0_802" x="22" y="56" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_800" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_701" flipH="1" source="haloompa_64_a_0_701" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_702" flipH="1" source="haloompa_64_a_0_702" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_703" flipH="1" source="haloompa_64_a_0_703" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_700" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_701" flipH="1" source="haloompa_64_a_2_701" x="16" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_702" flipH="1" source="haloompa_64_a_2_702" x="13" y="51" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_703" flipH="1" source="haloompa_64_a_2_703" x="13" y="51" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_700" flipH="1" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_701" flipH="1" source="haloompa_64_a_0_701" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_702" flipH="1" source="haloompa_64_a_0_702" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_703" flipH="1" source="haloompa_64_a_0_703" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_700" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_701" flipH="1" source="haloompa_64_a_0_701" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_702" flipH="1" source="haloompa_64_a_0_702" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_703" flipH="1" source="haloompa_64_a_0_703" x="12" y="55" usesPalette="1"/>
+  <asset name="haloompa_64_a_7_700" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_701" source="haloompa_64_a_2_701" x="16" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_702" source="haloompa_64_a_2_702" x="13" y="51" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_703" source="haloompa_64_a_2_703" x="13" y="51" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_700" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_701" source="haloompa_64_a_2_701" x="16" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_702" source="haloompa_64_a_2_702" x="13" y="51" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_703" source="haloompa_64_a_2_703" x="13" y="51" usesPalette="1"/>
+  <asset name="haloompa_64_a_3_700" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_900" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_901" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_902" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_901" flipH="1" source="haloompa_64_a_2_901" x="19" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_902" flipH="1" source="haloompa_64_a_2_902" x="19" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_900" flipH="1" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_900" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_901" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_902" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_901" source="haloompa_64_a_2_901" x="19" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_902" source="haloompa_64_a_2_902" x="19" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_1_900" source="haloompa_64_a_2_0" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_6_200" flipH="1" source="haloompa_64_a_0_0" x="15" y="53" usesPalette="1"/>
+  <asset name="haloompa_64_a_4_200" flipH="1" source="haloompa_64_a_2_200" x="17" y="54" usesPalette="1"/>
+  <asset name="haloompa_64_a_5_200" flipH="1" source="haloompa_64_a_1_200" x="13" y="55" usesPalette="1"/>
+  <palette id="0" source="haloompapalette00" master="true" color1="56ab2c" color2="76533d"/>
+  <palette id="1" source="haloompapalette01" color2="76533d" color1="4790a9"/>
+  <palette id="2" source="haloompapalette02" color1="ae6f31" color2="76533d"/>
+  <palette id="3" source="haloompapalette03" color1="54240d" color2="76533d"/>
+  <palette id="4" source="haloompapalette04" color2="6a3b6d" color1="4790a9"/>
+  <palette id="5" source="haloompapalette05" color1="a34775" color2="515656"/>
+  <palette id="6" source="haloompapalette06" color1="c55173" color2="814d34"/>
+  <palette id="7" source="haloompapalette07" color1="00563f" color2="764c39"/>
+  <palette id="8" source="haloompapalette08" color1="872222" color2="8c0009"/>
+  <palette id="9" source="haloompapalette09" color1="f28a00" color2="a95413"/>
+</assets>

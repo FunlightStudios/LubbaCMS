@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><manifest>
+  <library name="hat_U_brain" version="0.1">
+    <assets>
+      <asset name="h_lay_ha_3262_2_0" mimeType="image/png">
+        <param key="offset" value="20,37"/>
+      </asset>
+      <asset name="h_lsp_ha_3262_2_0" mimeType="image/png">
+        <param key="offset" value="-43,-123"/>
+      </asset>
+      <asset name="h_std_ha_3262_7_0" mimeType="image/png">
+        <param key="offset" value="-21,74"/>
+      </asset>
+      <asset name="h_std_ha_3262_3_0" mimeType="image/png">
+        <param key="offset" value="-21,75"/>
+      </asset>
+      <asset name="h_std_ha_3262_2_0" mimeType="image/png">
+        <param key="offset" value="-19,76"/>
+      </asset>
+      <asset name="h_std_ha_3262_1_0" mimeType="image/png">
+        <param key="offset" value="-18,74"/>
+      </asset>
+      <asset name="h_std_ha_3262_0_0" mimeType="image/png">
+        <param key="offset" value="-18,75"/>
+      </asset>
+      <asset name="h_spk_ha_3262_7_0" mimeType="image/png">
+        <param key="offset" value="-21,75"/>
+      </asset>
+      <asset name="h_spk_ha_3262_3_0" mimeType="image/png">
+        <param key="offset" value="-21,76"/>
+      </asset>
+      <asset name="h_spk_ha_3262_2_0" mimeType="image/png">
+        <param key="offset" value="-19,77"/>
+      </asset>
+      <asset name="h_spk_ha_3262_1_0" mimeType="image/png">
+        <param key="offset" value="-18,75"/>
+      </asset>
+      <asset name="h_spk_ha_3262_0_0" mimeType="image/png">
+        <param key="offset" value="-18,76"/>
+      </asset>
+    </assets>
+  </library>
+</manifest>

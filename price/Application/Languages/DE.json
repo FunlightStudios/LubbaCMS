@@ -1,0 +1,55 @@
+{
+	"Copyright": "Copyright 2016 <a href=\"%url%\">%sitename%</a>.",
+	"Cardview": {
+		"View": "Ansehen"
+	},
+	"Credits": "Taler",
+	"Login": {
+		"Username": "Benutzername",
+		"Password": "Passwort",
+		"Submit": "Einloggen",
+		"Error": "Falsche Zugangsdaten"
+	},
+	"Navigation": {
+		"Toggle": "Menu ein/ausblenden"
+	},
+	"Titles": {
+		"Homepage": "Startseite",
+		"Login": "Einloggen",
+		"Register": "Registrieren",
+		"Logout": "Ausloggen",
+		"Account": "Mein Account"
+	},
+	"Register": {
+		"Username": "Benutzername",
+		"Password": "Passwort",
+		"PasswordConfirm": "Passwort wiederholen",
+		"Submit": "Registrieren",
+		"Error1": "Alle Felder sind erforderlich.",
+		"Error2": "Benutzername ist bereits registriert.",
+		"Error3": "Benutzername zu kurz (min. 3 Zeichen).",
+		"Error4": "Benutzername zu lang (max. 16 Zeichen).",
+		"Error5": "Benutzername nicht gültig.",
+		"Error6": "Passwort zu kurz (min. 6 Zeichen).",
+		"Error7": "Passwort nicht identisch."
+	},
+	"Account": {
+		"Index": {
+			"Welcome": "Angemeldet als %username%."
+		}
+	},
+	"Error": {
+		"Index": {
+			"Title": "Oops",
+			"Text": "Die Seite, welche du aufgerufen hast scheint nicht zu existieren."
+		}
+	},
+	"Main": {
+		"Index": {
+			"Register": "Registrieren"
+		},
+		"Register": {
+			"Login": "Einloggen"
+		}
+	}
+}

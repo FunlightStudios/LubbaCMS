@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><manifest>
+  <library name="acc_head_U_axe" version="0.1">
+    <assets>
+      <asset name="h_std_he_3235_7_0" mimeType="image/png">
+        <param key="offset" value="-30,79"/>
+      </asset>
+      <asset name="h_std_he_3235_3_0" mimeType="image/png">
+        <param key="offset" value="-5,81"/>
+      </asset>
+      <asset name="h_std_he_3235_2_0" mimeType="image/png">
+        <param key="offset" value="-8,81"/>
+      </asset>
+      <asset name="h_std_he_3235_1_0" mimeType="image/png">
+        <param key="offset" value="-14,77"/>
+      </asset>
+      <asset name="h_std_he_3235_0_0" mimeType="image/png">
+        <param key="offset" value="-31,79"/>
+      </asset>
+      <asset name="h_spk_he_3235_7_0" mimeType="image/png">
+        <param key="offset" value="-30,80"/>
+      </asset>
+      <asset name="h_spk_he_3235_3_0" mimeType="image/png">
+        <param key="offset" value="-5,82"/>
+      </asset>
+      <asset name="h_spk_he_3235_2_0" mimeType="image/png">
+        <param key="offset" value="-8,82"/>
+      </asset>
+      <asset name="h_spk_he_3235_1_0" mimeType="image/png">
+        <param key="offset" value="-14,78"/>
+      </asset>
+      <asset name="h_spk_he_3235_0_0" mimeType="image/png">
+        <param key="offset" value="-31,80"/>
+      </asset>
+      <asset name="h_lay_he_3235_2_0" mimeType="image/png">
+        <param key="offset" value="37,38"/>
+      </asset>
+    </assets>
+  </library>
+</manifest>

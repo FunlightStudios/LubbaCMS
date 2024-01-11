@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><manifest>
+  <library name="hat_U_mini_bowlerhat_red" version="0.1">
+    <assets>
+      <asset name="h_std_ha_3133_2_0" mimeType="image/png">
+        <param key="offset" value="-21,86"/>
+      </asset>
+      <asset name="h_std_ha_3133_0_0" mimeType="image/png">
+        <param key="offset" value="-21,86"/>
+      </asset>
+      <asset name="h_std_ha_3133_3_0" mimeType="image/png">
+        <param key="offset" value="-22,86"/>
+      </asset>
+      <asset name="h_std_ha_3133_7_0" mimeType="image/png">
+        <param key="offset" value="-22,84"/>
+      </asset>
+      <asset name="h_std_ha_3133_1_0" mimeType="image/png">
+        <param key="offset" value="-22,88"/>
+      </asset>
+      <asset name="h_spk_ha_3133_2_0" mimeType="image/png">
+        <param key="offset" value="-21,87"/>
+      </asset>
+      <asset name="h_spk_ha_3133_0_0" mimeType="image/png">
+        <param key="offset" value="-21,87"/>
+      </asset>
+      <asset name="h_spk_ha_3133_3_0" mimeType="image/png">
+        <param key="offset" value="-22,87"/>
+      </asset>
+      <asset name="h_spk_ha_3133_7_0" mimeType="image/png">
+        <param key="offset" value="-22,85"/>
+      </asset>
+      <asset name="h_spk_ha_3133_1_0" mimeType="image/png">
+        <param key="offset" value="-22,89"/>
+      </asset>
+      <asset name="h_lay_ha_3133_2_0" mimeType="image/png">
+        <param key="offset" value="25,44"/>
+      </asset>
+      <asset name="h_lsp_ha_3133_2_0" mimeType="image/png">
+        <param key="offset" value="-38,-115"/>
+      </asset>
+    </assets>
+  </library>
+</manifest>

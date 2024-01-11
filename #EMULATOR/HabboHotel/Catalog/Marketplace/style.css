@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+.content {
+  margin-top: 200px;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.closed {
+  color: white;
+  margin: auto;
+}
+.closed h1{
+  font-size: 40px;
+}
+.years {
+  color: white;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><objectData type="haloompa">
+  <model>
+    <dimensions x="1" y="1" z="1"/>
+    <directions>
+      <direction id="90"/>
+      <direction id="180"/>
+      <direction id="0"/>
+      <direction id="135"/>
+      <direction id="45"/>
+      <direction id="315"/>
+      <direction id="225"/>
+      <direction id="270"/>
+    </directions>
+  </model>
+  <particlesystems>
+    <particlesystem size="64"/>
+  </particlesystems>
+</objectData>

@@ -1,0 +1,10 @@
+Parameters:
+figure : string
+size : (s, m, l, xl) m = default.
+direction : 0 to 8.
+head_direction : 0 to 8.
+action (CARRY("crr"), DRINK("drk"), STAND("std"), SIT("sit"), LAY("lay"), WALK("wlk"), WAVE("wav"))
+Note: Action order matters. If you try multiple actions and it doesn't work try reversing them.
+gesture (NORMAL("std"), SMILE("sml"), SAD("sad"), ANGRY("agr"), SURPRISED("srp"),  EYEBLINK("eyb"),  SPEAK("spk"))
+frame : int
+effect : int

@@ -1,0 +1,30 @@
+Não tenho nenhum arquivo e nem fiz
+
+
+
+Mas a maneira de traduzir o catálogo é bem simples
+
+
+VÁ NO PHPMYADMIN
+
+PROCURE POR   CATALOG_PAGES     (Páginas do catálogo, as principais)
+
+Lá você altera as páginas principais, tipo Jogos, Wireds, as que aparecem na frente
+
+
+Caso queira traduzir as SUB-PASTAS (pastas que aparecem quando abrem uma aba, tipo abrir jogos e ter futebol e outros)
+
+TAMBÉM ESTÁ AI
+
+
+
+Agora se você for louco de querer traduzir cada item do jogo (creio eu, mais de 10.000), nem habblive e outros hps grandes fizeram isso
+
+
+Você vai em     CATALOG_ITEMS
+
+OBS: Ao entrar nessas páginas, clique em Mostrar Tudo ou selecione o quanto quer mostrar, para aparecer vários, pois tem páginas e páginas pra não pesar, recomendo selecionar a opção 50, para aparecer 50 de uma vez e ir alterando
+
+
+
+Créditos de tradução ao Wulles, organizado por joaowars776        dc: joaowars776#3688

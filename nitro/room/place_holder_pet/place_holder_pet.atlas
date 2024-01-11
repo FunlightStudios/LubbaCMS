@@ -1,0 +1,41 @@
+
+PlaceHolderPet.png
+size: 256,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+PlaceHolderPet_pet_place_holder_64_0.png
+  rotate: false
+  xy: 109, 2
+  size: 43, 40
+  orig: 43, 40
+  offset: 0, 0
+  index: -1
+PlaceHolderPet_pet_place_holder_64_1.png
+  rotate: false
+  xy: 2, 4
+  size: 54, 38
+  orig: 54, 38
+  offset: 0, 0
+  index: -1
+PlaceHolderPet_pet_place_holder_64_2.png
+  rotate: false
+  xy: 58, 4
+  size: 49, 38
+  orig: 49, 38
+  offset: 0, 0
+  index: -1
+PlaceHolderPet_pet_place_holder_64_3.png
+  rotate: false
+  xy: 184, 7
+  size: 28, 35
+  orig: 28, 35
+  offset: 0, 0
+  index: -1
+PlaceHolderPet_pet_place_holder_64_7.png
+  rotate: false
+  xy: 154, 4
+  size: 28, 38
+  orig: 28, 38
+  offset: 0, 0
+  index: -1

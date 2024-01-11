@@ -1,0 +1,20 @@
+
+place_holder.png
+size: 128,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+place_holder_place_holder_64_a_0_0.png
+  rotate: false
+  xy: 2, 28
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+place_holder_place_holder_icon_a.png
+  rotate: false
+  xy: 2, 2
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1

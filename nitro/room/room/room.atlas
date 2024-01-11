@@ -1,0 +1,895 @@
+
+room.png
+size: 4096,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+room_ads_twi_windw_64.png
+  rotate: false
+  xy: 1250, 22
+  size: 104, 69
+  orig: 104, 69
+  offset: 0, 0
+  index: -1
+room_bolly_wdw_wd_64.png
+  rotate: false
+  xy: 2820, 163
+  size: 50, 91
+  orig: 50, 91
+  offset: 0, 0
+  index: -1
+room_door_64.png
+  rotate: false
+  xy: 3092, 166
+  size: 32, 88
+  orig: 32, 88
+  offset: 0, 0
+  index: -1
+room_easter13_window_64.png
+  rotate: false
+  xy: 2872, 182
+  size: 49, 72
+  orig: 49, 72
+  offset: 0, 0
+  index: -1
+room_floor_texture_64_0_floor_basic.png
+  rotate: false
+  xy: 1548, 27
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+room_floor_texture_64_1_floor_fuzzy1.png
+  rotate: false
+  xy: 206, 2
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+room_floor_texture_64_1_floor_tiles2.png
+  rotate: false
+  xy: 274, 2
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+room_floor_texture_64_1_floor_tiles3.png
+  rotate: false
+  xy: 240, 2
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+room_floor_texture_64_1_floor_tiles5.png
+  rotate: false
+  xy: 352, 12
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+room_floor_texture_64_2_floor_basic.png
+  rotate: false
+  xy: 1482, 27
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+room_hween08_wndw_64.png
+  rotate: false
+  xy: 846, 2
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+room_hween08_wndwb_64.png
+  rotate: false
+  xy: 943, 14
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1
+room_hween09_win_64.png
+  rotate: false
+  xy: 2770, 46
+  size: 51, 98
+  orig: 51, 98
+  offset: 0, 0
+  index: -1
+room_jp_window_64.png
+  rotate: false
+  xy: 1677, 27
+  size: 59, 64
+  orig: 59, 64
+  offset: 0, 0
+  index: -1
+room_landscape_64_10_foreground_1.png
+  rotate: false
+  xy: 1766, 100
+  size: 194, 154
+  orig: 194, 154
+  offset: 0, 0
+  index: -1
+room_landscape_64_10_foreground_2.png
+  rotate: false
+  xy: 1962, 100
+  size: 194, 154
+  orig: 194, 154
+  offset: 0, 0
+  index: -1
+room_landscape_64_11_foreground_1.png
+  rotate: false
+  xy: 2158, 100
+  size: 194, 154
+  orig: 194, 154
+  offset: 0, 0
+  index: -1
+room_landscape_64_11_item_1.png
+  rotate: false
+  xy: 811, 4
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+room_landscape_64_12_foreground_1.png
+  rotate: false
+  xy: 982, 93
+  size: 194, 161
+  orig: 194, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_12_foreground_2.png
+  rotate: false
+  xy: 786, 93
+  size: 194, 161
+  orig: 194, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_12_item_1.png
+  rotate: false
+  xy: 1738, 16
+  size: 50, 75
+  orig: 50, 75
+  offset: 0, 0
+  index: -1
+room_landscape_64_12_item_2.png
+  rotate: false
+  xy: 2746, 146
+  size: 72, 108
+  orig: 72, 108
+  offset: 0, 0
+  index: -1
+room_landscape_64_1_foreground_1.png
+  rotate: false
+  xy: 2574, 12
+  size: 194, 118
+  orig: 194, 118
+  offset: 0, 0
+  index: -1
+room_landscape_64_1_foreground_2.png
+  rotate: false
+  xy: 2, 77
+  size: 194, 177
+  orig: 194, 177
+  offset: 0, 0
+  index: -1
+room_landscape_64_1_item_1.png
+  rotate: false
+  xy: 1149, 2
+  size: 10, 14
+  orig: 10, 14
+  offset: 0, 0
+  index: -1
+room_landscape_64_2_foreground_1.png
+  rotate: false
+  xy: 1178, 93
+  size: 194, 161
+  orig: 194, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_2_foreground_2.png
+  rotate: false
+  xy: 198, 91
+  size: 194, 163
+  orig: 194, 163
+  offset: 0, 0
+  index: -1
+room_landscape_64_2_item_1.png
+  rotate: false
+  xy: 3033, 65
+  size: 45, 78
+  orig: 45, 78
+  offset: 0, 0
+  index: -1
+room_landscape_64_3_foreground_1.png
+  rotate: false
+  xy: 1790, 4
+  size: 194, 94
+  orig: 194, 94
+  offset: 0, 0
+  index: -1
+room_landscape_64_3_foreground_2.png
+  rotate: false
+  xy: 2182, 5
+  size: 194, 93
+  orig: 194, 93
+  offset: 0, 0
+  index: -1
+room_landscape_64_3_item_1.png
+  rotate: false
+  xy: 2770, 16
+  size: 12, 28
+  orig: 12, 28
+  offset: 0, 0
+  index: -1
+room_landscape_64_4_foreground_1.png
+  rotate: false
+  xy: 2378, 14
+  size: 194, 97
+  orig: 194, 97
+  offset: 0, 0
+  index: -1
+room_landscape_64_4_foreground_2.png
+  rotate: false
+  xy: 2354, 113
+  size: 194, 141
+  orig: 194, 141
+  offset: 0, 0
+  index: -1
+room_landscape_64_5_foreground_1.png
+  rotate: false
+  xy: 2, 16
+  size: 194, 59
+  orig: 194, 59
+  offset: 0, 0
+  index: -1
+room_landscape_64_6_foreground_1.png
+  rotate: false
+  xy: 198, 30
+  size: 194, 59
+  orig: 194, 59
+  offset: 0, 0
+  index: -1
+room_landscape_64_7_foreground_1.png
+  rotate: false
+  xy: 1986, 5
+  size: 194, 93
+  orig: 194, 93
+  offset: 0, 0
+  index: -1
+room_landscape_64_7_foreground_2.png
+  rotate: false
+  xy: 2550, 132
+  size: 194, 122
+  orig: 194, 122
+  offset: 0, 0
+  index: -1
+room_landscape_64_7_item_1.png
+  rotate: false
+  xy: 1161, 3
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1
+room_landscape_64_7_item_2.png
+  rotate: false
+  xy: 3080, 59
+  size: 34, 86
+  orig: 34, 86
+  offset: 0, 0
+  index: -1
+room_landscape_64_8_foreground_1.png
+  rotate: false
+  xy: 1570, 93
+  size: 194, 161
+  orig: 194, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_8_foreground_2.png
+  rotate: false
+  xy: 1374, 93
+  size: 194, 161
+  orig: 194, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_8_item_1.png
+  rotate: false
+  xy: 621, 2
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+room_landscape_64_8_item_2.png
+  rotate: false
+  xy: 986, 71
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+room_landscape_64_8_item_3.png
+  rotate: false
+  xy: 1173, 3
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
+room_landscape_64_8_item_4.png
+  rotate: false
+  xy: 678, 7
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+room_landscape_64_9_foreground_1.png
+  rotate: false
+  xy: 590, 92
+  size: 194, 162
+  orig: 194, 162
+  offset: 0, 0
+  index: -1
+room_landscape_64_9_foreground_2.png
+  rotate: false
+  xy: 394, 92
+  size: 194, 162
+  orig: 194, 162
+  offset: 0, 0
+  index: -1
+room_landscape_64_anim_item_1.png
+  rotate: false
+  xy: 308, 6
+  size: 42, 22
+  orig: 42, 22
+  offset: 0, 0
+  index: -1
+room_landscape_64_anim_item_2.png
+  rotate: false
+  xy: 1250, 2
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+room_landscape_64_background_1.png
+  rotate: false
+  xy: 3116, 3
+  size: 16, 161
+  orig: 16, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_background_2.png
+  rotate: false
+  xy: 3134, 18
+  size: 16, 161
+  orig: 16, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_background_3.png
+  rotate: false
+  xy: 3152, 93
+  size: 16, 161
+  orig: 16, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_background_4.png
+  rotate: false
+  xy: 3170, 93
+  size: 16, 161
+  orig: 16, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_background_5.png
+  rotate: false
+  xy: 3188, 93
+  size: 16, 161
+  orig: 16, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_background_6.png
+  rotate: false
+  xy: 3206, 93
+  size: 16, 161
+  orig: 16, 161
+  offset: 0, 0
+  index: -1
+room_landscape_64_background_7.png
+  rotate: false
+  xy: 3224, 93
+  size: 16, 161
+  orig: 16, 161
+  offset: 0, 0
+  index: -1
+room_lc_window1_64.png
+  rotate: false
+  xy: 773, 6
+  size: 36, 52
+  orig: 36, 52
+  offset: 0, 0
+  index: -1
+room_lc_window2_64.png
+  rotate: false
+  xy: 1009, 7
+  size: 138, 84
+  orig: 138, 84
+  offset: 0, 0
+  index: -1
+room_sf_window_64.png
+  rotate: false
+  xy: 1149, 18
+  size: 99, 73
+  orig: 99, 73
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_groovy1.png
+  rotate: false
+  xy: 172, 6
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_groovy2.png
+  rotate: false
+  xy: 138, 6
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_groovy3.png
+  rotate: false
+  xy: 104, 6
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_groovy4.png
+  rotate: false
+  xy: 70, 6
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_groovy5.png
+  rotate: false
+  xy: 198, 20
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_groovy6.png
+  rotate: false
+  xy: 232, 20
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_groovy7.png
+  rotate: false
+  xy: 266, 20
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_lively.png
+  rotate: false
+  xy: 2, 6
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_0_wall_white.png
+  rotate: false
+  xy: 36, 6
+  size: 32, 8
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_1_wall_half1.png
+  rotate: false
+  xy: 2891, 71
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_1_wall_half2.png
+  rotate: false
+  xy: 2925, 72
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_1_wall_half3.png
+  rotate: false
+  xy: 2959, 72
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_1_wall_stripes.png
+  rotate: false
+  xy: 2823, 52
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_1_wall_tiles1.png
+  rotate: false
+  xy: 3027, 145
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_1_wall_tiles2.png
+  rotate: false
+  xy: 2993, 145
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_1_wall_vstripes1.png
+  rotate: false
+  xy: 2857, 52
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_bubbles1.png
+  rotate: false
+  xy: 782, 60
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_bubbles2.png
+  rotate: false
+  xy: 782, 76
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_bubbles3.png
+  rotate: false
+  xy: 748, 60
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_brick1.png
+  rotate: false
+  xy: 553, 14
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_brick2.png
+  rotate: false
+  xy: 587, 30
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_brick3.png
+  rotate: false
+  xy: 612, 76
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_chocolat.png
+  rotate: false
+  xy: 553, 30
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_invaders.png
+  rotate: false
+  xy: 748, 76
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_invaders2.png
+  rotate: false
+  xy: 646, 76
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_invaders3.png
+  rotate: false
+  xy: 612, 60
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_invaders4.png
+  rotate: false
+  xy: 646, 60
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_jagged.png
+  rotate: false
+  xy: 680, 76
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_jagged2.png
+  rotate: false
+  xy: 680, 60
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_jagged3.png
+  rotate: false
+  xy: 714, 76
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_lsd.png
+  rotate: false
+  xy: 587, 14
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_lsd2.png
+  rotate: false
+  xy: 884, 77
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_lsd3.png
+  rotate: false
+  xy: 816, 61
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_lsd4.png
+  rotate: false
+  xy: 816, 77
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_lsd5.png
+  rotate: false
+  xy: 850, 61
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_lsd6.png
+  rotate: false
+  xy: 850, 77
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_ornament.png
+  rotate: false
+  xy: 714, 60
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_ornament2.png
+  rotate: false
+  xy: 485, 11
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_ornament3.png
+  rotate: false
+  xy: 519, 29
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_stripes1.png
+  rotate: false
+  xy: 952, 61
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_stripes2.png
+  rotate: false
+  xy: 975, 45
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_stripes3.png
+  rotate: false
+  xy: 975, 29
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_table.png
+  rotate: false
+  xy: 519, 13
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_table2.png
+  rotate: false
+  xy: 386, 14
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_table3.png
+  rotate: false
+  xy: 451, 27
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_color_wood.png
+  rotate: false
+  xy: 884, 61
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_gothic.png
+  rotate: false
+  xy: 975, 13
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_ornament1.png
+  rotate: false
+  xy: 918, 77
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_ornament2.png
+  rotate: false
+  xy: 952, 77
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_ornament3.png
+  rotate: false
+  xy: 918, 61
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_picture1.png
+  rotate: false
+  xy: 451, 11
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_wall_texture_64_3_wall_picture2.png
+  rotate: false
+  xy: 485, 27
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+room_window_70s_wide_64.png
+  rotate: false
+  xy: 489, 45
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+room_window_basic_64.png
+  rotate: false
+  xy: 2991, 9
+  size: 40, 61
+  orig: 40, 61
+  offset: 0, 0
+  index: -1
+room_window_chinese_narrow_64.png
+  rotate: false
+  xy: 3126, 181
+  size: 22, 73
+  orig: 22, 73
+  offset: 0, 0
+  index: -1
+room_window_chinese_wide_64.png
+  rotate: false
+  xy: 1356, 18
+  size: 62, 73
+  orig: 62, 73
+  offset: 0, 0
+  index: -1
+room_window_diner2_64.png
+  rotate: false
+  xy: 593, 46
+  size: 17, 44
+  orig: 17, 44
+  offset: 0, 0
+  index: -1
+room_window_diner_64.png
+  rotate: false
+  xy: 547, 46
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+room_window_double_default_64.png
+  rotate: false
+  xy: 394, 43
+  size: 93, 47
+  orig: 93, 47
+  offset: 0, 0
+  index: -1
+room_window_golden_64.png
+  rotate: false
+  xy: 2946, 12
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+room_window_grunge_64.png
+  rotate: false
+  xy: 2891, 11
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+room_window_hole_64.png
+  rotate: false
+  xy: 730, 6
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+room_window_romantic_narrow_64.png
+  rotate: false
+  xy: 2923, 183
+  size: 37, 71
+  orig: 37, 71
+  offset: 0, 0
+  index: -1
+room_window_romantic_wide_64.png
+  rotate: false
+  xy: 1420, 20
+  size: 60, 71
+  orig: 60, 71
+  offset: 0, 0
+  index: -1
+room_window_single_default_64.png
+  rotate: false
+  xy: 904, 12
+  size: 37, 47
+  orig: 37, 47
+  offset: 0, 0
+  index: -1
+room_window_skyscraper_64.png
+  rotate: false
+  xy: 3061, 147
+  size: 29, 107
+  orig: 29, 107
+  offset: 0, 0
+  index: -1
+room_window_square_64.png
+  rotate: false
+  xy: 420, 8
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+room_window_triple_64.png
+  rotate: false
+  xy: 1614, 24
+  size: 61, 67
+  orig: 61, 67
+  offset: 0, 0
+  index: -1

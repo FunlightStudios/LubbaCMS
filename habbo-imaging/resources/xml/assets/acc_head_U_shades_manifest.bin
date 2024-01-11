@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><manifest>
+  <library name="acc_head_U_shades" version="0.1">
+    <assets>
+      <asset name="h_lay_he_3126_2_0" mimeType="image/png">
+        <param key="offset" value="23,41"/>
+      </asset>
+      <asset name="h_lay_he_3127_2_0" mimeType="image/png">
+        <param key="offset" value="19,39"/>
+      </asset>
+      <asset name="h_lay_he_3128_2_0" mimeType="image/png">
+        <param key="offset" value="16,39"/>
+      </asset>
+      <asset name="h_std_he_3126_7_0" mimeType="image/png">
+        <param key="offset" value="-23,75"/>
+      </asset>
+      <asset name="h_std_he_3126_3_0" mimeType="image/png">
+        <param key="offset" value="-22,74"/>
+      </asset>
+      <asset name="h_std_he_3126_2_0" mimeType="image/png">
+        <param key="offset" value="-24,74"/>
+      </asset>
+      <asset name="h_std_he_3126_1_0" mimeType="image/png">
+        <param key="offset" value="-32,77"/>
+      </asset>
+      <asset name="h_std_he_3126_0_0" mimeType="image/png">
+        <param key="offset" value="-27,77"/>
+      </asset>
+      <asset name="h_std_he_3127_0_0" mimeType="image/png">
+        <param key="offset" value="-31,76"/>
+      </asset>
+      <asset name="h_std_he_3127_1_0" mimeType="image/png">
+        <param key="offset" value="-37,76"/>
+      </asset>
+      <asset name="h_std_he_3127_2_0" mimeType="image/png">
+        <param key="offset" value="-30,72"/>
+      </asset>
+      <asset name="h_std_he_3127_3_0" mimeType="image/png">
+        <param key="offset" value="-25,72"/>
+      </asset>
+      <asset name="h_std_he_3127_7_0" mimeType="image/png">
+        <param key="offset" value="-26,74"/>
+      </asset>
+      <asset name="h_std_he_3128_0_0" mimeType="image/png">
+        <param key="offset" value="-33,76"/>
+      </asset>
+      <asset name="h_std_he_3128_1_0" mimeType="image/png">
+        <param key="offset" value="-38,76"/>
+      </asset>
+      <asset name="h_std_he_3128_2_0" mimeType="image/png">
+        <param key="offset" value="-31,71"/>
+      </asset>
+      <asset name="h_std_he_3128_3_0" mimeType="image/png">
+        <param key="offset" value="-26,71"/>
+      </asset>
+      <asset name="h_std_he_3128_7_0" mimeType="image/png">
+        <param key="offset" value="-28,74"/>
+      </asset>
+    </assets>
+  </library>
+</manifest>

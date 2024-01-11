@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><manifest>
+  <library name="hat_U_loyaltycrown_V" version="0.1">
+    <assets>
+      <asset name="h_lay_ha_3119_2_0" mimeType="image/png">
+        <param key="offset" value="37,45"/>
+      </asset>
+      <asset name="h_lsp_ha_3119_2_0" mimeType="image/png">
+        <param key="offset" value="-26,-114"/>
+      </asset>
+      <asset name="h_std_ha_3119_7_0" mimeType="image/png">
+        <param key="offset" value="-18,107"/>
+      </asset>
+      <asset name="h_std_ha_3119_3_0" mimeType="image/png">
+        <param key="offset" value="-18,107"/>
+      </asset>
+      <asset name="h_std_ha_3119_2_0" mimeType="image/png">
+        <param key="offset" value="-17,107"/>
+      </asset>
+      <asset name="h_std_ha_3119_1_0" mimeType="image/png">
+        <param key="offset" value="-16,106"/>
+      </asset>
+      <asset name="h_std_ha_3119_0_0" mimeType="image/png">
+        <param key="offset" value="-16,105"/>
+      </asset>
+      <asset name="h_spk_ha_3119_7_0" mimeType="image/png">
+        <param key="offset" value="-18,108"/>
+      </asset>
+      <asset name="h_spk_ha_3119_3_0" mimeType="image/png">
+        <param key="offset" value="-18,108"/>
+      </asset>
+      <asset name="h_spk_ha_3119_2_0" mimeType="image/png">
+        <param key="offset" value="-17,108"/>
+      </asset>
+      <asset name="h_spk_ha_3119_1_0" mimeType="image/png">
+        <param key="offset" value="-16,107"/>
+      </asset>
+      <asset name="h_spk_ha_3119_0_0" mimeType="image/png">
+        <param key="offset" value="-16,106"/>
+      </asset>
+    </assets>
+  </library>
+</manifest>
