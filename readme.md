@@ -3,7 +3,9 @@
 A modern Content Management System for Habbo Retro hotels, based on BrainCMS. Updated for improved security, functionality, and customization.
 
 # ⚠️ Work in Progress
-This project is under active development and not production-ready yet.
+## ▐▐ Paused
+
+This project is paused and not production-ready yet.
 
 ## Screenshots
 !SOON
