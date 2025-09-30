@@ -3,9 +3,17 @@
 A modern Content Management System for Habbo Retro hotels, based on BrainCMS. Updated for improved security, functionality, and customization.
 
 # ⚠️ Work in Progress
-## ▐▐ Paused
 
-This project is paused and not production-ready yet.
+
+This project is BACK under active development but not production-ready yet.
+
+## What is comming:
+- Lubba EMU WebSocket (for Nitro Clinet)
+- New modern CMS design
+- Update to PHP 8 for better Security
+- HC Support
+- VIP System
+- Own Habbo imager
 
 ## Screenshots
 !SOON
