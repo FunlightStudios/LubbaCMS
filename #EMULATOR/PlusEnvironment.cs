@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -35,7 +35,7 @@ namespace Plus
         private static readonly ILog log = LogManager.GetLogger("Plus.PlusEnvironment");
 
         public const string PrettyVersion = "Lubba Emulator";
-        public const string PrettyBuild = "5.24";
+        public const string PrettyBuild = "5.23";
 
         private static Encoding _defaultEncoding;
         public static CultureInfo CultureInfo;
@@ -144,19 +144,24 @@ namespace Plus
                 _figureManager = new FigureDataManager();
                 _figureManager.Init();
 
-                //Have our encryption ready.
                 HabboEncryptionV2.Initialize(new RSAKeys());
 
                 //Make sure RCON is connected before we allow clients to connect.
                 _rcon = new RCONSocket(GetConfig().data["rcon.tcp.bindip"], int.Parse(GetConfig().data["rcon.tcp.port"]), GetConfig().data["rcon.tcp.allowedaddr"].Split(Convert.ToChar(";")));
 
-                //Accept connections.
-                _connectionManager = new ConnectionHandling(int.Parse(GetConfig().data["game.tcp.port"]), int.Parse(GetConfig().data["game.tcp.conlimit"]), int.Parse(GetConfig().data["game.tcp.conperip"]), GetConfig().data["game.tcp.enablenagles"].ToLower() == "true");
+                //Accept connections (TCP + WebSocket)
+                bool enableWebSocket = GetConfig().data.ContainsKey("websocket.enabled") && GetConfig().data["websocket.enabled"] == "1";
+                _connectionManager = new ConnectionHandling(
+                    int.Parse(GetConfig().data["game.tcp.port"]), 
+                    int.Parse(GetConfig().data["game.tcp.conlimit"]), 
+                    int.Parse(GetConfig().data["game.tcp.conperip"]), 
+                    GetConfig().data["game.tcp.enablenagles"].ToLower() == "true",
+                    enableWebSocket
+                );
                 _connectionManager.init();
 
                 _game = new Game();
                 _game.StartGameLoop();
-
                 TimeSpan TimeUsed = DateTime.Now - ServerStarted;
 
                 Console.WriteLine();

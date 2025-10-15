@@ -1,13 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-
 using Plus.Database.Interfaces;
-
-private void LogMarketplaceInteraction(string message)
-{
-    Console.WriteLine("[MARKETPLACE LOG] " + message);
-}
-
 
 namespace Plus.HabboHotel.Catalog.Marketplace
 {
@@ -27,6 +20,7 @@ namespace Plus.HabboHotel.Catalog.Marketplace
         {
             int num = 0;
             int num2 = 0;
+            
             if (this.MarketAverages.ContainsKey(SpriteID) && this.MarketCounts.ContainsKey(SpriteID))
             {
                 if (this.MarketCounts[SpriteID] > 0)
@@ -38,25 +32,14 @@ namespace Plus.HabboHotel.Catalog.Marketplace
 
             using (IQueryAdapter dbClient = PlusEnvironment.GetDatabaseManager().GetQueryReactor())
             {
-                dbClient.SetQuery("SELECT `avgprice` FROM `catalog_marketplace_data` WHERE `sprite` = '" + SpriteID + "' LIMIT 1");
+                dbClient.SetQuery("SELECT `avgprice` FROM `catalog_marketplace_data` WHERE `sprite` = @sprite LIMIT 1");
+                dbClient.AddParameter("sprite", SpriteID);
                 num = dbClient.GetInteger();
 
-                dbClient.SetQuery("SELECT `sold` FROM `catalog_marketplace_data` WHERE `sprite` = '" + SpriteID + "' LIMIT 1");
+                dbClient.SetQuery("SELECT `sold` FROM `catalog_marketplace_data` WHERE `sprite` = @sprite LIMIT 1");
+                dbClient.AddParameter("sprite", SpriteID);
                 num2 = dbClient.GetInteger();
             }
-
-            LogMarketplaceInteraction("Angebot hinzugefügt - SpriteID: " + SpriteID + ", Verkaufspreis: " + SellingPrice);
-
-            using (IQueryAdapter dbClient = PlusEnvironment.GetDatabaseManager().GetQueryReactor())
-{
-    LogMarketplaceInteraction("SQL-Anfrage: SELECT `avgprice` FROM `catalog_marketplace_data` WHERE `sprite` = '" + SpriteID + "' LIMIT 1");
-    num = dbClient.GetInteger();
-
-    LogMarketplaceInteraction("SQL-Anfrage: SELECT `sold` FROM `catalog_marketplace_data` WHERE `sprite` = '" + SpriteID + "' LIMIT 1");
-    num2 = dbClient.GetInteger();
-}
-
-
 
             this.MarketAverages.Add(SpriteID, num);
             this.MarketCounts.Add(SpriteID, num2);

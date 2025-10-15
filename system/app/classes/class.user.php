@@ -1,148 +1,176 @@
 <?php
-	if(!defined('BRAIN_CMS')) 
-	{ 
-		die('Sorry but you cannot access this file!'); 
-	}
-	/* 
-		Functions list Class User.
-		---------------
-		checkUser();
-		hashed();
-		validName();
-		userData();
-		emailTaken();
-		userTaken();
-		refUser();
-		login();
-		register();
-		userRefClaim();
-		editPassword();
-		editEmail();
-		editHotelSettings();
-		editUsername();
-	*/
-	class User 
-	{
-		public static function checkUser($password, $passwordDb, $username)
-		{
-			global $dbh;
-			if (substr($passwordDb, 0, 1) == "$") 
-			{
-				if (password_verify($password, $passwordDb))
-				{
-					return true;
-				}
-				return false;
-			}
-			else 
-			{
+declare(strict_types=1);
+
+if (!defined('BRAIN_CMS')) {
+	die('Sorry but you cannot access this file!');
+}
+
+/**
+ * User Management Class
+ * PHP 8+ compatible with strict types, return types, and modern security practices
+ * 
+ * @package LubbaCMS
+ * @version 2.0
+ */
+class User {
+	
+	/**
+	 * Verify user password with automatic migration from MD5 to Bcrypt
+	 * 
+	 * @param string $password Plain text password
+	 * @param string $passwordDb Hashed password from database
+	 * @param string $username Username for migration
+	 * @return bool True if password is correct
+	 */
+	public static function checkUser(string $password, string $passwordDb, string $username): bool {
+		global $dbh;
+		
+		// Modern bcrypt/argon2 hash
+		if (str_starts_with($passwordDb, '$')) {
+			return password_verify($password, $passwordDb);
+		}
+		
+		// Legacy MD5 - migrate to bcrypt if correct
+		if (md5($password) === $passwordDb) {
+			try {
 				$passwordBcrypt = self::hashed($password);
-				if (md5($password) == $passwordDb) 
-				{	
-					$stmt = $dbh->prepare("UPDATE users SET password = :password WHERE username = :username");
-					$stmt->bindParam(':username', $username); 
-					$stmt->bindParam(':password', $passwordBcrypt); 
-					$stmt->execute(); 
-					return true;
-				}
-				return false;	
-			}
-		}
-		public static function hashed($password)
-		{	
-			return password_hash($password, PASSWORD_BCRYPT);
-		}
-		public static function validName($username)
-		{
-			if(strlen($username) <= 12 && strlen($username) >= 3 && ctype_alnum($username))
-			{
+				$stmt = $dbh->prepare("UPDATE users SET password = :password WHERE username = :username");
+				$stmt->bindParam(':username', $username, PDO::PARAM_STR);
+				$stmt->bindParam(':password', $passwordBcrypt, PDO::PARAM_STR);
+				$stmt->execute();
 				return true;
+			} catch (PDOException $e) {
+				error_log('Password migration failed for user: ' . $username . ' - ' . $e->getMessage());
+				return true; // Still allow login even if migration fails
 			}
-			return false;
 		}
-		public static function userData($key)
-		{
-			global $dbh,$config;
-			if (loggedIn())
-			{
-				if ($config['hotelEmu'] == 'arcturus')
-				{
-					if ( in_array($key, array('activity_points', 'vip_points')) )
-					{
-						switch($key)
-						{
-							case "activity_points":
-							$key = '0';
-							break;
-							case "vip_points":
-							$key = '5';
-							break;
-							default:
-							break;
-						}
-						$stmt = $dbh->prepare("SELECT ".$key.",user_id,type,amount FROM users_currency WHERE user_id = :id AND type = :type");
-						$stmt->bindParam(':id', $_SESSION['id']);
-						$stmt->bindParam(':type', $key);
-						$stmt->execute();
-						if ($stmt->RowCount() > 0)
-						{
-							$row = $stmt->fetch();
-							return $row['amount'];
-						}
-						else
-						{
-							return '0';
-						}
-					}
-					else
-					{	
-						$stmt = $dbh->prepare("SELECT ".$key." FROM users WHERE id = :id");
-						$stmt->bindParam(':id', $_SESSION['id']);
-						$stmt->execute();
-						$row = $stmt->fetch();
-						return filter($row[$key]);
-					}
-				}
-				else
-				{
-					$stmt = $dbh->prepare("SELECT ".$key." FROM users WHERE id = :id");
-					$stmt->bindParam(':id', $_SESSION['id']);
-					$stmt->execute();
+		
+		return false;
+	}
+	
+	/**
+	 * Hash password using modern algorithm (Bcrypt with cost 12)
+	 * 
+	 * @param string $password Plain text password
+	 * @return string Hashed password
+	 */
+	public static function hashed(string $password): string {
+		return password_hash($password, PASSWORD_BCRYPT, ['cost' => 12]);
+	}
+	
+	/**
+	 * Validate username format
+	 * 
+	 * @param string $username Username to validate
+	 * @return bool True if valid
+	 */
+	public static function validName(string $username): bool {
+		$length = strlen($username);
+		return $length >= 3 && $length <= 12 && ctype_alnum($username);
+	}
+	
+	/**
+	 * Validate email format
+	 * 
+	 * @param string $email Email to validate
+	 * @return bool True if valid
+	 */
+	public static function validEmail(string $email): bool {
+		return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
+	}
+	
+	/**
+	 * Validate password strength
+	 * 
+	 * @param string $password Password to validate
+	 * @return bool True if strong enough
+	 */
+	public static function validPassword(string $password): bool {
+		return strlen($password) >= 6;
+	}
+	
+	/**
+	 * Get user data for logged-in user
+	 * 
+	 * @param string $key Database column name
+	 * @return mixed User data (filtered for strings, raw for numbers)
+	 */
+	public static function userData(string $key): mixed {
+		global $dbh, $config;
+		
+		if (!loggedIn()) {
+			return null;
+		}
+		
+		// Arcturus emulator special handling
+		if ($config['hotelEmu'] === 'arcturus') {
+			if (in_array($key, ['activity_points', 'vip_points'], true)) {
+				$type = match($key) {
+					'activity_points' => '0',
+					'vip_points' => '5',
+					default => '0'
+				};
+				
+				$stmt = $dbh->prepare("SELECT amount FROM users_currency WHERE user_id = :id AND type = :type");
+				$stmt->bindParam(':id', $_SESSION['id'], PDO::PARAM_INT);
+				$stmt->bindParam(':type', $type, PDO::PARAM_STR);
+				$stmt->execute();
+				
+				if ($stmt->rowCount() > 0) {
 					$row = $stmt->fetch();
-					return filter($row[$key]);
+					return (int) $row['amount'];
 				}
+				return 0;
 			}
 		}
-		public static function emailTaken($email)
-		{
-			global $dbh;
-			$stmt = $dbh->prepare("SELECT mail FROM users WHERE mail = :email LIMIT 1");
-			$stmt->bindParam(':email', $email);
-			$stmt->execute();
-			if ($stmt->RowCount() > 0)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+		
+		// Standard query for all other fields
+		$stmt = $dbh->prepare("SELECT {$key} FROM users WHERE id = :id");
+		$stmt->bindParam(':id', $_SESSION['id'], PDO::PARAM_INT);
+		$stmt->execute();
+		
+		if ($stmt->rowCount() === 0) {
+			return null;
 		}
-		public static function userTaken($username)
-		{
-			global $dbh;
-			$stmt = $dbh->prepare("SELECT username FROM users WHERE username = :username LIMIT 1");
-			$stmt->bindParam(':username', $username);
-			$stmt->execute();
-			if ($stmt->RowCount() > 0)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+		
+		$row = $stmt->fetch();
+		$value = $row[$key] ?? null;
+		
+		// Only filter string values for XSS protection
+		// Keep numeric values as-is for proper type handling
+		if (is_string($value)) {
+			return filter($value);
 		}
+		
+		return $value;
+	}
+	/**
+	 * Check if email is already registered
+	 * 
+	 * @param string $email Email to check
+	 * @return bool True if taken
+	 */
+	public static function emailTaken(string $email): bool {
+		global $dbh;
+		$stmt = $dbh->prepare("SELECT mail FROM users WHERE mail = :email LIMIT 1");
+		$stmt->bindParam(':email', $email, PDO::PARAM_STR);
+		$stmt->execute();
+		return $stmt->rowCount() > 0;
+	}
+	
+	/**
+	 * Check if username is already taken
+	 * 
+	 * @param string $username Username to check
+	 * @return bool True if taken
+	 */
+	public static function userTaken(string $username): bool {
+		global $dbh;
+		$stmt = $dbh->prepare("SELECT username FROM users WHERE username = :username LIMIT 1");
+		$stmt->bindParam(':username', $username, PDO::PARAM_STR);
+		$stmt->execute();
+		return $stmt->rowCount() > 0;
+	}
 		public static function refUser($refUsername)
 		{
 			global $dbh, $lang;

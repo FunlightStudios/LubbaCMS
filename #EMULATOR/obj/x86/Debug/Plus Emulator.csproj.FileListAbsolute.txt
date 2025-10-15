@@ -1,0 +1,31 @@
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\Plus Emulator.exe.config
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\Plus Emulator.exe
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\Plus Emulator.pdb
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\log4net.dll
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\MySql.Data.dll
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\log4net.xml
+C:\Users\Sledmore\Desktop\PlusEMU\obj\x86\Debug\Plus Emulator.exe
+C:\Users\Sledmore\Desktop\PlusEMU\obj\x86\Debug\Plus Emulator.pdb
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\AStar.dll
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\HabboEncryption.dll
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\MoreLinq.dll
+C:\Users\Sledmore\Desktop\PlusEMU\bin\Debug\MoreLinq.xml
+C:\Users\Sledmore\Desktop\PlusEMU\obj\x86\Debug\Plus Emulator.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\#EMULATOR\bin\Debug\AStar.dll
+C:\xampp\htdocs\#EMULATOR\bin\Debug\HabboEncryption.dll
+C:\xampp\htdocs\#EMULATOR\bin\Debug\log4net.dll
+C:\xampp\htdocs\#EMULATOR\bin\Debug\MoreLinq.dll
+C:\xampp\htdocs\#EMULATOR\bin\Debug\MySql.Data.dll
+C:\xampp\htdocs\#EMULATOR\bin\Debug\log4net.xml
+C:\xampp\htdocs\#EMULATOR\bin\Debug\MoreLinq.xml
+C:\xampp\htdocs\#EMULATOR\obj\x86\Debug\Plus Emulator.csproj.AssemblyReference.cache
+C:\xampp\htdocs\#EMULATOR\obj\x86\Debug\Plus Emulator.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\#EMULATOR\bin\Debug\Lubba Emulator.exe.config
+C:\xampp\htdocs\#EMULATOR\bin\Debug\Lubba Emulator.exe
+C:\xampp\htdocs\#EMULATOR\bin\Debug\Lubba Emulator.pdb
+C:\xampp\htdocs\#EMULATOR\obj\x86\Debug\Lubba Emulator.exe
+C:\xampp\htdocs\#EMULATOR\obj\x86\Debug\Lubba Emulator.pdb
+C:\xampp\htdocs\#EMULATOR\bin\Debug\Fleck.dll
+C:\xampp\htdocs\#EMULATOR\bin\Debug\Newtonsoft.Json.dll
+C:\xampp\htdocs\#EMULATOR\bin\Debug\Newtonsoft.Json.xml
+C:\xampp\htdocs\#EMULATOR\obj\x86\Debug\Plus Emu.6BCC57F6.Up2Date

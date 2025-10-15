@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0160374F-61DA-40E9-AEE9-624D234C66A3}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Plus</RootNamespace>
     <AssemblyName>Lubba Emulator</AssemblyName>
@@ -77,6 +77,9 @@
     <Reference Include="AStar">
       <HintPath>libs\AStar.dll</HintPath>
     </Reference>
+    <Reference Include="Fleck, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Fleck.1.2.0\lib\net45\Fleck.dll</HintPath>
+    </Reference>
     <Reference Include="HabboEncryption, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\HabboEncryption.dll</HintPath>
@@ -93,6 +96,9 @@
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -248,6 +254,7 @@
     <Compile Include="Communication\Packets\Outgoing\Campaigns\CampaignCalendarDataComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Catalog\CheckGnomeNameComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Catalog\ClubGiftsComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Catalog\NitroCatalogIndexComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\GameCenter\Game1WeeklyLeaderboardComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\GameCenter\Game2WeeklyLeaderboardComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\GameCenter\Game3WeeklyLeaderboardComposer.cs" />
@@ -260,9 +267,19 @@
     <Compile Include="Communication\Packets\Outgoing\Groups\GroupMembershipRequestedComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Groups\UnknownGroupComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Groups\GroupMemberUpdatedComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\NitroAuthenticationOKComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\NitroInitCryptoComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\NitroPacketHeaders.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\NitroServerPacket.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\NitroUserObjectComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Handshake\PongComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Help\SanctionStatusComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Inventory\AvatarEffects\FigureSetIdsComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Inventory\NitroBadgeListComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Inventory\NitroBadgesComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Inventory\NitroBotInventoryComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Inventory\NitroFurniListComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Inventory\NitroPetInventoryComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Inventory\Trading\TradingAcceptComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Inventory\Trading\TradingClosedComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Inventory\Trading\TradingCompleteComposer.cs" />
@@ -274,6 +291,8 @@
     <Compile Include="Communication\Packets\Outgoing\LandingView\ConcurrentUsersGoalProgressComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Messenger\FindFriendsProcessResultComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Messenger\FriendNotificationComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Messenger\NitroFriendListUpdateComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Messenger\NitroMessengerInitComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Misc\VideoOffersRewardsComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Inventory\Furni\FurniListAddComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Messenger\FriendListUpdateComposer.cs" />
@@ -406,6 +425,10 @@
     <Compile Include="Communication\Packets\Outgoing\Navigator\New\NavigatorMetaDataParserComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Navigator\New\NavigatorPreferencesComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Navigator\New\NavigatorSearchResultSetComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Navigator\NitroCanCreateRoomComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Navigator\NitroFlatCreatedComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Navigator\NitroNavigatorSearchResultsComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Navigator\NitroNavigatorSettingsComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Navigator\PopularRoomTagsResultComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Navigator\UserFlatCatsComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Navigator\NavigatorFlatCatsComposer.cs" />
@@ -568,6 +591,21 @@
     <Compile Include="Communication\Packets\Outgoing\Rooms\Furni\YouTubeTelevisions\GetYouTubePlaylistComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Rooms\Furni\RentableSpaces\RentableSpaceComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Rooms\Furni\UpdateMagicTileComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroHeightMapComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomDoorComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomEntryComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomFloorItemsComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomForwardComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomInfoComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomModelComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomModelNameComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomPaintComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomThicknessComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroRoomUsersComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroUnitChatComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroUnitDanceComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroUnitExpressionComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\NitroUnitStatusComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Rooms\Notifications\RoomErrorNotifComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Rooms\Notifications\RoomNotificationComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Rooms\Permissions\YouAreControllerMessageComposer.cs" />
@@ -603,11 +641,17 @@
     <Compile Include="Communication\Packets\Outgoing\Users\HabboUserBadgesComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Users\IgnoredUsersComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Users\NameChangeUpdateComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Users\NitroAvailabilityStatusComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Users\NitroUserCurrentBadgesComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Users\NitroUserPerksComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Users\NitroUserRightsComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Users\ProfileInformationComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Users\RespectNotificationComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Users\ScrSendUserInfoComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Users\UpdateUsernameComposer.cs" />
     <Compile Include="Communication\Packets\Outgoing\Users\UserTagsComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\User\NitroUserPermissionsComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\User\NitroUserSubscriptionComposer.cs" />
     <Compile Include="Communication\Packets\PacketManager.cs" />
     <Compile Include="Communication\RCON\Commands\CommandManager.cs" />
     <Compile Include="Communication\RCON\Commands\Hotel\ReloadBansCommand.cs" />
@@ -634,6 +678,10 @@
     <Compile Include="Communication\RCON\Commands\User\TakeUserCurrencyCommand.cs" />
     <Compile Include="Communication\RCON\RCONConnection.cs" />
     <Compile Include="Communication\RCON\RCONSocket.cs" />
+    <Compile Include="Communication\WebSocket\NitroClient.cs" />
+    <Compile Include="Communication\WebSocket\WebSocketConnectionHandler.cs" />
+    <Compile Include="Communication\WebSocket\WebSocketConnectionWrapper.cs" />
+    <Compile Include="Communication\WebSocket\WebSocketServer.cs" />
     <Compile Include="Core\FigureData\Types\Color.cs" />
     <Compile Include="Core\FigureData\FigureDataManager.cs" />
     <Compile Include="Core\FigureData\Types\FigureSet.cs" />

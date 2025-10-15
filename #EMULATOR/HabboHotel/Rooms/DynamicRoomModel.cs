@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text;
 
 namespace Plus.HabboHotel.Rooms
@@ -77,7 +77,9 @@ namespace Plus.HabboHotel.Rooms
                 {
                     if (x == DoorX && y == DoorY)
                     {
-                        FloorMap.Append(DoorZ > 9 ? ((char)(87 + DoorZ)).ToString() : DoorZ.ToString());
+                        // Clamp DoorZ to valid range (0-35)
+                        double clampedDoorZ = Math.Max(0, Math.Min(35, DoorZ));
+                        FloorMap.Append(clampedDoorZ > 9 ? ((char)(87 + clampedDoorZ)).ToString() : ((int)clampedDoorZ).ToString());
                         continue;
                     }
 
@@ -87,7 +89,8 @@ namespace Plus.HabboHotel.Rooms
                         continue;
                     }
 
-                    double Height = SqFloorHeight[x, y];
+                    // Clamp height to valid range (0-35)
+                    int Height = Math.Max(0, Math.Min(35, (int)SqFloorHeight[x, y]));
                     string Val = Height > 9 ? ((char)(87 + Height)).ToString() : Height.ToString();
                     FloorMap.Append(Val);
 

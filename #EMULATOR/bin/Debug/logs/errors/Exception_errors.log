@@ -1,0 +1,403 @@
+Date/Time: 2023-12-20 15:05:56,121
+Thread: 141
+Exception:
+System.InvalidOperationException: Item did not match neither floor or wall item
+   bei Plus.HabboHotel.Users.Inventory.InventoryComponent.TryAddItem(Item item) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\Inventory\InventoryComponent.cs:Zeile 329.
+   bei Plus.Communication.Packets.Incoming.Catalog.PurchaseFromCatalogEvent.Parse(GameClient Session, ClientPacket Packet) in C:\xampp\htdocs\#EMULATOR\Communication\Packets\Incoming\Catalog\PurchaseFromCatalogEvent.cs:Zeile 430.
+   bei Plus.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) in C:\xampp\htdocs\#EMULATOR\Communication\Packets\PacketManager.cs:Zeile 154.
+   bei Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientPacket Message) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 65.
+
+
+
+Date/Time: 2023-12-20 20:26:13,934
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 20:28:19,629
+Thread: 8
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 20:29:17,364
+Thread: 17
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 20:30:11,500
+Thread: 16
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 20:33:30,152
+Thread: 26
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 20:33:42,823
+Thread: 27
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 20:37:43,216
+Thread: 41
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 20:47:24,588
+Thread: 35
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 20:58:20,415
+Thread: 65
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:00:50,541
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:02:32,663
+Thread: 12
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:05:36,875
+Thread: 25
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:07:31,944
+Thread: 29
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:08:46,500
+Thread: 10
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:09:04,785
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:26:33,510
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:36:22,971
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:40:06,356
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:42:46,774
+Thread: 19
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:44:02,982
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:45:18,287
+Thread: 11
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:46:41,197
+Thread: 5
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:47:48,782
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:49:24,815
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:54:22,662
+Thread: 9
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:56:07,839
+Thread: 14
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 21:59:02,801
+Thread: 10
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+
+Date/Time: 2023-12-20 22:00:57,533
+Thread: 11
+Exception:
+System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
+   bei System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   bei System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   bei System.Convert.ToInt32(String value)
+   bei Plus.HabboHotel.Rooms.RoomData.Fill(DataRow Row) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomData.cs:Zeile 87.
+   bei Plus.HabboHotel.Rooms.RoomManager.FetchRoomData(Int32 RoomId, DataRow dRow) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Rooms\RoomManager.cs:Zeile 400.
+   bei Plus.HabboHotel.Users.UserData.UserDataFactory.GetUserData(String SessionTicket, Byte& errorCode) in C:\xampp\htdocs\#EMULATOR\HabboHotel\Users\UserData\UserDataFactory.cs:Zeile 158.
+   bei Plus.HabboHotel.GameClients.GameClient.TryAuthenticate(String AuthTicket) in C:\xampp\htdocs\#EMULATOR\HabboHotel\GameClients\GameClient.cs:Zeile 100.
+
+
+

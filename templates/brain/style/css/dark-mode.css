@@ -1,0 +1,476 @@
+/**
+ * Dark Mode Theme for LubbaCMS
+ * Toggle between Light and Dark Mode
+ * Version 2.0 - Complete Coverage
+ */
+
+/* ==================== DARK MODE VARIABLES ==================== */
+[data-theme="dark"] {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #334155;
+    
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --text-light: #94a3b8;
+    
+    --border-color: #334155;
+    --hover-bg: #1e293b;
+    
+    /* Gradients bleiben gleich für Akzente */
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --success-gradient: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+    --warning-gradient: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    --danger-gradient: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
+}
+
+/* ==================== LIGHT MODE VARIABLES (Default) ==================== */
+[data-theme="light"] {
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f1f5f9;
+    
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --text-light: #94a3b8;
+    
+    --border-color: #e2e8f0;
+    --hover-bg: #f8fafc;
+    
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --success-gradient: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+    --warning-gradient: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    --danger-gradient: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* ==================== DARK MODE TOGGLE BUTTON ==================== */
+.theme-toggle {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--primary-gradient);
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: var(--shadow-xl);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1) rotate(15deg);
+    box-shadow: 0 25px 30px -5px rgba(102, 126, 234, 0.5);
+}
+
+.theme-toggle:active {
+    transform: scale(0.95);
+}
+
+.theme-toggle .icon {
+    transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .theme-toggle .sun-icon {
+    display: block;
+}
+
+[data-theme="dark"] .theme-toggle .moon-icon {
+    display: none;
+}
+
+[data-theme="light"] .theme-toggle .sun-icon {
+    display: none;
+}
+
+[data-theme="light"] .theme-toggle .moon-icon {
+    display: block;
+}
+
+/* ==================== COMPREHENSIVE TEXT COLOR FIX ==================== */
+[data-theme="dark"] * {
+    color: inherit;
+}
+
+[data-theme="dark"] body,
+[data-theme="dark"] p,
+[data-theme="dark"] span,
+[data-theme="dark"] div,
+[data-theme="dark"] label,
+[data-theme="dark"] td,
+[data-theme="dark"] th {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] a {
+    color: #667eea;
+}
+
+[data-theme="dark"] a:hover {
+    color: #764ba2;
+}
+
+[data-theme="dark"] small {
+    color: var(--text-secondary);
+}
+
+/* ==================== BUTTON LINKS FIX ==================== */
+[data-theme="dark"] .btn a,
+[data-theme="dark"] .btn-primary a,
+[data-theme="dark"] .btn-success a,
+[data-theme="dark"] .btn-info a,
+[data-theme="dark"] .btn-warning a,
+[data-theme="dark"] .btn-danger a,
+[data-theme="dark"] button a {
+    color: white !important;
+}
+
+[data-theme="dark"] .btn,
+[data-theme="dark"] .btn-primary,
+[data-theme="dark"] .btn-success,
+[data-theme="dark"] .btn-info,
+[data-theme="dark"] button {
+    color: white !important;
+}
+
+/* ==================== DARK MODE BODY ==================== */
+[data-theme="dark"] body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* ==================== DARK MODE BOXES ==================== */
+[data-theme="dark"] .box,
+[data-theme="dark"] .widget,
+[data-theme="dark"] .card,
+[data-theme="dark"] .profile-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .box:hover,
+[data-theme="dark"] .widget:hover,
+[data-theme="dark"] .card:hover {
+    border-color: #667eea;
+}
+
+/* ==================== DARK MODE NAVIGATION ==================== */
+[data-theme="dark"] nav {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] #navigator li > a {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] #navigator li > a:hover {
+    background: var(--hover-bg);
+}
+
+[data-theme="dark"] #navigator .submenu {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] #navigator .submenu a {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] #navigator .submenu a:hover {
+    background: var(--hover-bg);
+}
+
+/* ==================== DARK MODE FORMS ==================== */
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="password"],
+[data-theme="dark"] input[type="email"],
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+    background: var(--bg-tertiary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] input[type="text"]:focus,
+[data-theme="dark"] input[type="password"]:focus,
+[data-theme="dark"] input[type="email"]:focus,
+[data-theme="dark"] textarea:focus,
+[data-theme="dark"] select:focus {
+    background: var(--bg-secondary);
+    border-color: #667eea;
+}
+
+/* ==================== DARK MODE TEXT ==================== */
+[data-theme="dark"] .box .title,
+[data-theme="dark"] .widget-title,
+[data-theme="dark"] .content-title,
+[data-theme="dark"] .profile-name,
+[data-theme="dark"] .news-title,
+[data-theme="dark"] .feature-title {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .text-secondary,
+[data-theme="dark"] .news-excerpt,
+[data-theme="dark"] .feature-description,
+[data-theme="dark"] .profile-motto {
+    color: var(--text-secondary);
+}
+
+/* ==================== DARK MODE SIDEBAR ==================== */
+[data-theme="dark"] .sidebar {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .sidebar-menu a {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .sidebar-menu a:hover {
+    background: var(--hover-bg);
+}
+
+/* ==================== DARK MODE INFO BOXES ==================== */
+[data-theme="dark"] .info-box {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .info-box-text {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .info-box-number {
+    color: var(--text-primary);
+}
+
+/* ==================== DARK MODE LISTS ==================== */
+[data-theme="dark"] .list-group-item {
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .list-group-item:hover {
+    background: var(--hover-bg);
+}
+
+/* ==================== DARK MODE TABS ==================== */
+[data-theme="dark"] .tabs {
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .tab {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .tab:hover {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .tab.active {
+    color: #667eea;
+}
+
+/* ==================== DARK MODE PAGINATION ==================== */
+[data-theme="dark"] .pagination-item {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .pagination-item:hover {
+    border-color: #667eea;
+}
+
+/* ==================== DARK MODE ALERTS ==================== */
+[data-theme="dark"] .alert-success {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+}
+
+[data-theme="dark"] .alert-danger {
+    background: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+}
+
+[data-theme="dark"] .alert-warning {
+    background: rgba(245, 158, 11, 0.2);
+    color: #fbbf24;
+}
+
+[data-theme="dark"] .alert-info {
+    background: rgba(59, 130, 246, 0.2);
+    color: #3b82f6;
+}
+
+/* ==================== DARK MODE RADIO PLAYER ==================== */
+[data-theme="dark"] .custom-audio-player {
+    background: var(--bg-tertiary);
+}
+
+/* ==================== DARK MODE NEWS CARDS ==================== */
+[data-theme="dark"] .news-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .news-author {
+    border-color: var(--border-color);
+}
+
+/* ==================== DARK MODE PROFILE ==================== */
+[data-theme="dark"] .profile-card {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .profile-body {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .profile-avatar {
+    border-color: var(--bg-secondary);
+    background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .profile-stats {
+    border-color: var(--border-color);
+}
+
+/* ==================== DARK MODE HEADER ==================== */
+[data-theme="dark"] #mainheader {
+    background: var(--primary-gradient);
+}
+
+[data-theme="dark"] #onlinecount {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+[data-theme="dark"] #onlinecount small {
+    color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] #onlinecount b {
+    color: #22c55e !important;
+}
+
+/* ==================== DARK MODE PROFILE CARD ==================== */
+[data-theme="dark"] .profile-name,
+[data-theme="dark"] .profile-motto,
+[data-theme="dark"] .profile-stat-label {
+    color: var(--text-primary) !important;
+}
+
+/* Keep currency colors in dark mode - inline styles preserved */
+[data-theme="dark"] .profile-stat-value[style*="color"] {
+    /* Inline color styles take precedence */
+    opacity: 1;
+}
+
+[data-theme="dark"] .profile-stat-value i {
+    opacity: 1;
+}
+
+/* ==================== DARK MODE NEWS ==================== */
+[data-theme="dark"] .news-title,
+[data-theme="dark"] .news-date,
+[data-theme="dark"] .news-excerpt,
+[data-theme="dark"] .author-name,
+[data-theme="dark"] .author-role {
+    color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .news-date,
+[data-theme="dark"] .news-excerpt,
+[data-theme="dark"] .author-role {
+    color: var(--text-secondary) !important;
+}
+
+/* ==================== DARK MODE LISTS ==================== */
+[data-theme="dark"] .online-user-name,
+[data-theme="dark"] .staff-name,
+[data-theme="dark"] .feature-title,
+[data-theme="dark"] .feature-description {
+    color: var(--text-primary) !important;
+}
+
+/* ==================== DARK MODE FOOTER ==================== */
+[data-theme="dark"] .modern-footer {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .footer-left,
+[data-theme="dark"] .footer-left strong,
+[data-theme="dark"] .footer-badge {
+    color: var(--text-primary) !important;
+}
+
+/* ==================== ENSURE ALL TEXT UPDATES ==================== */
+[data-theme="dark"] .box .mainBox,
+[data-theme="dark"] .widget-body,
+[data-theme="dark"] .content-wrapper {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+    color: var(--text-primary) !important;
+}
+
+/* ==================== SMOOTH TRANSITIONS ==================== */
+body,
+.box,
+.widget,
+.card,
+nav,
+input,
+textarea,
+select,
+.sidebar,
+.info-box,
+.list-group-item,
+.tab,
+.pagination-item,
+.alert,
+.news-card,
+.profile-card {
+    transition: background-color 0.3s ease, 
+                color 0.3s ease, 
+                border-color 0.3s ease;
+}
+
+/* ==================== MOBILE RESPONSIVE ==================== */
+@media (max-width: 768px) {
+    .theme-toggle {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}

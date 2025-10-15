@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Data;
@@ -153,9 +153,20 @@ namespace Plus.HabboHotel.Users.UserData
             }
 
             List<RoomData> rooms = new List<RoomData>();
-            foreach (DataRow dRow in dRooms.Rows)
+            
+            // Check if Game is initialized before loading rooms
+            if (PlusEnvironment.GetGame() != null && PlusEnvironment.GetGame().GetRoomManager() != null)
             {
-                rooms.Add(PlusEnvironment.GetGame().GetRoomManager().FetchRoomData(Convert.ToInt32(dRow["id"]), dRow));
+                foreach (DataRow dRow in dRooms.Rows)
+                {
+                    rooms.Add(PlusEnvironment.GetGame().GetRoomManager().FetchRoomData(Convert.ToInt32(dRow["id"]), dRow));
+                }
+            }
+            else
+            {
+                // Game not initialized yet, skip loading rooms for now
+                // Rooms will be loaded later when needed
+                Console.WriteLine("[WARNING] Game not initialized, skipping room loading for user " + UserId);
             }
 
             Dictionary<int, int> quests = new Dictionary<int, int>();
@@ -197,6 +208,7 @@ namespace Plus.HabboHotel.Users.UserData
             DataRow UserInfo = null;
             DataTable dRelations = null;
             DataTable dGroups = null;
+            DataTable dBadges = null;
 
             using (IQueryAdapter dbClient = PlusEnvironment.GetDatabaseManager().GetQueryReactor())
             {
@@ -222,7 +234,6 @@ namespace Plus.HabboHotel.Users.UserData
                     dbClient.SetQuery("SELECT * FROM `user_info` WHERE `user_id` = '" + UserId + "' LIMIT 1");
                     UserInfo = dbClient.GetRow();
                 }
-
                 dbClient.SetQuery("SELECT group_id,rank FROM group_memberships WHERE user_id=@id");
                 dbClient.AddParameter("id", UserId);
                 dGroups = dbClient.GetTable();
@@ -230,6 +241,10 @@ namespace Plus.HabboHotel.Users.UserData
                 dbClient.SetQuery("SELECT `id`,`target`,`type` FROM user_relationships WHERE user_id=@id");
                 dbClient.AddParameter("id", UserId);
                 dRelations = dbClient.GetTable();
+                
+                dbClient.SetQuery("SELECT `badge_id`,`badge_slot` FROM user_badges WHERE `user_id` = @id");
+                dbClient.AddParameter("id", UserId);
+                dBadges = dbClient.GetTable();
             }
 
             ConcurrentDictionary<string, UserAchievement> Achievements = new ConcurrentDictionary<string, UserAchievement>();
@@ -239,6 +254,12 @@ namespace Plus.HabboHotel.Users.UserData
             Dictionary<int, MessengerRequest> FriendRequests = new Dictionary<int, MessengerRequest>();
             List<RoomData> Rooms = new List<RoomData>();
             Dictionary<int, int> Quests = new Dictionary<int, int>();
+            
+            // Load badges from database
+            foreach (DataRow dRow in dBadges.Rows)
+            {
+                Badges.Add(new Badge(Convert.ToString(dRow["badge_id"]), Convert.ToInt32(dRow["badge_slot"])));
+            }
 
             Dictionary<int, Relationship> Relationships = new Dictionary<int, Relationship>();
             foreach (DataRow Row in dRelations.Rows)

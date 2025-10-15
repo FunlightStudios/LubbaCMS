@@ -1,0 +1,65 @@
+# LubbaCMS .gitignore
+
+# Currently empty - all files are tracked for development
+# Add files/folders here that should not be committed to git
+
+# Example (uncomment when needed):
+# .env
+# logs/
+# *.log
+# backup/
+temp/
+cache/
+*.tmp
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Composer
+vendor/
+composer.lock
+
+# Node Modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build Files
+dist/
+build/
+
+# User Uploads
+uploads/
+avatars/
+photos/
+
+# Session Files
+sessions/
+*.sess
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# PHP
+*.cache
+.phpunit.result.cache
+
+# Specific to LubbaCMS
+#DB/
+downloads/
+habbo-imaging/cache/
+
+# Keep structure but ignore content
+!.gitkeep

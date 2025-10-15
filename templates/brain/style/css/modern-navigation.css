@@ -1,0 +1,399 @@
+/**
+ * Modern Navigation Styles
+ * LubbaCMS 2.0
+ */
+
+/* ==================== NAVIGATION BAR ==================== */
+nav {
+    background: var(--bg-secondary) !important;
+    box-shadow: var(--shadow-md) !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid var(--border-color) !important;
+    padding: 0 !important;
+}
+
+#navigator {
+    position: relative;
+    background: transparent !important;
+}
+
+#navigator .center {
+    max-width: var(--container-width, 1400px);
+    margin: 0 auto;
+    padding: 0 var(--container-padding, 24px);
+}
+
+#navigator ul {
+    display: flex !important;
+    list-style: none !important;
+    gap: 4px;
+    padding: 0 !important;
+    margin: 0 !important;
+    align-items: center;
+    background: transparent !important;
+}
+
+#navigator li {
+    position: relative;
+    background: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+/* ==================== MENU ITEMS ==================== */
+#navigator li > a {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px;
+    padding: 16px 20px !important;
+    color: var(--text-primary) !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    transition: var(--transition) !important;
+    border-radius: var(--radius-sm) !important;
+    position: relative;
+    line-height: 1 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#navigator li > a:hover {
+    background: var(--bg-primary) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* ==================== USER MENU (BLAUW) ==================== */
+#navigator li.blauw > a {
+    background: var(--primary-gradient) !important;
+    color: white !important;
+    border-radius: var(--radius-md) !important;
+    padding: 12px 24px !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+#navigator li.blauw > a:hover {
+    box-shadow: var(--shadow-md) !important;
+    transform: translateY(-2px) !important;
+    background: var(--primary-gradient) !important;
+}
+
+#navigator li.blauw > a::before {
+    content: '👤';
+    font-size: 16px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ==================== COMMUNITY (ROOD) ==================== */
+#navigator li.rood > a {
+    color: #ef4444 !important;
+    background: transparent !important;
+}
+
+#navigator li.rood > a:hover {
+    background: rgba(239, 68, 68, 0.1) !important;
+    color: #dc2626 !important;
+}
+
+#navigator li.rood > a::before {
+    content: '🏠';
+    font-size: 16px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ==================== STAFF (PAARS) ==================== */
+#navigator li.paars > a {
+    color: #8b5cf6 !important;
+    background: transparent !important;
+}
+
+#navigator li.paars > a:hover {
+    background: rgba(139, 92, 246, 0.1) !important;
+    color: #7c3aed !important;
+}
+
+#navigator li.paars > a::before {
+    content: '👮';
+    font-size: 16px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ==================== SHOP (GROEN) ==================== */
+#navigator li.groen > a {
+    color: #22c55e !important;
+    background: transparent !important;
+}
+
+#navigator li.groen > a:hover {
+    background: rgba(34, 197, 94, 0.1) !important;
+    color: #16a34a !important;
+}
+
+#navigator li.groen > a::before {
+    content: '🛒';
+    font-size: 16px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ==================== LOGOUT ==================== */
+#navigator li.logout {
+    padding: 12px 20px !important;
+    color: #ef4444 !important;
+    font-weight: 600 !important;
+    cursor: pointer;
+    transition: var(--transition) !important;
+    border-radius: var(--radius-md) !important;
+    margin-left: auto;
+    line-height: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+#navigator li.logout:hover {
+    background: rgba(239, 68, 68, 0.1) !important;
+    color: #dc2626 !important;
+}
+
+#navigator li.logout::before {
+    content: '🚪';
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ==================== OVERRIDE OLD STYLES ==================== */
+#navigator li.blauw,
+#navigator li.rood,
+#navigator li.paars,
+#navigator li.groen,
+#navigator li.logout {
+    float: none !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+#navigator li a img {
+    display: none !important;
+}
+
+/* ==================== SUBMENU ==================== */
+#navigator .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xl);
+    min-width: 220px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: var(--transition);
+    overflow: hidden;
+    margin-top: 8px;
+    border: 1px solid var(--border-color);
+}
+
+#navigator li:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#navigator .submenu a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition);
+    border-left: 3px solid transparent;
+    font-size: 14px;
+}
+
+#navigator .submenu a:hover {
+    background: var(--bg-primary);
+    border-left-color: #667eea;
+    padding-left: 24px;
+}
+
+/* ==================== SUBMENU ICONS ==================== */
+#navigator .submenu a[href*="/me"]::before {
+    content: '🏠';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="settings"]::before {
+    content: '⚙️';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="/home/"]::before {
+    content: '👤';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="sessionlog"]::before {
+    content: '📋';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="logout"]::before {
+    content: '🚪';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="community"]::before {
+    content: '🏘️';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="news"]::before {
+    content: '📰';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="advertentie"]::before {
+    content: '📢';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="stats"]::before {
+    content: '📊';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="online"]::before {
+    content: '🟢';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="staff"]::before {
+    content: '👮';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="sollicitaties"]::before {
+    content: '📝';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="teams"]::before {
+    content: '👥';
+    margin-right: 8px;
+}
+
+#navigator .submenu a[href*="vip"]::before {
+    content: '⭐';
+    margin-right: 8px;
+}
+
+/* ==================== ACTIVE STATE ==================== */
+#navigator li.active > a {
+    background: var(--bg-primary);
+    color: #667eea;
+}
+
+#navigator li.active > a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: var(--primary-gradient);
+    border-radius: 3px 3px 0 0;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+    #navigator ul {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    #navigator li > a {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        position: relative;
+    }
+    
+    #navigator ul {
+        flex-direction: column;
+        gap: 4px;
+        align-items: stretch;
+    }
+    
+    #navigator li {
+        width: 100%;
+    }
+    
+    #navigator li > a {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #navigator li.logout {
+        margin-left: 0;
+    }
+    
+    #navigator .submenu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        margin-top: 4px;
+        display: none;
+    }
+    
+    #navigator li:hover .submenu {
+        display: block;
+    }
+}
+
+/* ==================== ANIMATIONS ==================== */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#navigator li:hover .submenu {
+    animation: slideDown 0.3s ease-out;
+}
+
+/* ==================== DARK MODE SPECIFIC ==================== */
+[data-theme="dark"] #navigator .submenu {
+    background: var(--bg-tertiary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] #navigator .submenu a:hover {
+    background: var(--bg-secondary);
+}

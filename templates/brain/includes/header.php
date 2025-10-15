@@ -1,12 +1,31 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
 	<head>
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
-		<link rel="stylesheet" href="/templates/brain/style/css/main2.css?v=22" type="text/css">
-		<link rel="stylesheet" href="/templates/brain/style/css/home.css" type="text/css">
-		<link rel="stylesheet" href="/templates/brain/bootstra/css/bootstrap.css" type="text/css">
-		<!--<link rel="stylesheet" href="/templates/brain/custom/css/style.css" type="text/css">-->
-		<!--<link rel="stylesheet" href="/templates/brain/custom/css/script.js" type="text/js">-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title><?= $config['hotelName'] ?> - <?= $config['sitetitle'] ?? 'Habbo Hotel' ?></title>
+		
+		<!-- Fonts -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap">
+		
+		<!-- Core Styles -->
+		<link rel="stylesheet" href="/templates/brain/style/css/main2.css?v=30" type="text/css">
+		<link rel="stylesheet" href="/templates/brain/style/css/modern-theme.css?v=20" type="text/css">
+		<link rel="stylesheet" href="/templates/brain/style/css/modern-layout.css?v=20" type="text/css">
+		<link rel="stylesheet" href="/templates/brain/style/css/modern-home.css?v=20" type="text/css">
+		<link rel="stylesheet" href="/templates/brain/style/css/modern-navigation.css?v=20" type="text/css">
+		<link rel="stylesheet" href="/templates/brain/style/css/dark-mode.css?v=20" type="text/css">
+		<link rel="stylesheet" href="/templates/brain/style/css/home.css?v=10" type="text/css">
+		
+		<!-- Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="<?= htmlspecialchars($config['favicon'] ?? '/favicon.ico') ?>">
+		
+		<!-- Theme Toggle Script (Load Early) -->
+		<script src="/templates/brain/style/js/theme-toggle.js?v=20"></script>
 	</head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -63,7 +82,9 @@
 						<div class="logo">
 						</div>
 					</a>
-					<div style="margin-left: 16px; margin-top: 118px" id="onlinecount"><small><b><?= Game::usersOnline() ?></b> Lubba`s online.</small></div>
+					<div id="onlinecount">
+						<small><b><?= Game::usersOnline() ?></b> Lubba's online</small>
+					</div>
 
 				</div>
 

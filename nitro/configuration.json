@@ -1,5 +1,5 @@
 {
-    "socket.url": "ws://127.0.0.1:30000",
+    "socket.url": "ws://127.0.0.1:2096",
     "asset.url": "http://127.0.0.1/nitro",
     "image.library.url": "http://127.0.0.1/swf/c_images/",
     "external.samples.url": "http://127.0.0.1/swf/dcr/hof_furni/mp3/sound_machine_sample_%sample%.mp3",

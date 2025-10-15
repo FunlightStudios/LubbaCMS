@@ -1,25 +1,74 @@
 <?php
-	if(!defined('BRAIN_CMS')) 
-	{ 
-		die('Sorry but you cannot access this file!'); 
+declare(strict_types=1);
+
+if (!defined('BRAIN_CMS')) {
+	die('Sorry but you cannot access this file!');
+}
+
+/**
+ * Database Connection Handler
+ * PHP 8+ compatible with proper error handling and security
+ */
+class Database {
+	private static ?PDO $instance = null;
+	
+	/**
+	 * Get PDO instance (Singleton pattern)
+	 */
+	public static function getInstance(array $config): PDO {
+		if (self::$instance === null) {
+			self::connect($config);
+		}
+		return self::$instance;
 	}
-	try {
-		$dbh = new PDO('mysql:host='.$db['host'].':'.$db['port'].';dbname='.$db['db'].'', $db['user'], $db['pass']);
+	
+	/**
+	 * Establish database connection with security best practices
+	 */
+	private static function connect(array $config): void {
+		try {
+			$dsn = sprintf(
+				'mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4',
+				$config['host'],
+				$config['port'],
+				$config['db']
+			);
+			
+			$options = [
+				PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+				PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+				PDO::ATTR_EMULATE_PREPARES => false,
+				PDO::ATTR_STRINGIFY_FETCHES => false,
+				PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci"
+			];
+			
+			self::$instance = new PDO($dsn, $config['user'], $config['pass'], $options);
+			
+		} catch (PDOException $e) {
+			// Log error securely
+			error_log('Database connection failed: ' . $e->getMessage());
+			
+			// Display user-friendly error
+			if (defined('ENVIRONMENT') && ENVIRONMENT === 'production') {
+				die('<div style="background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; padding: 20px; border-radius: 5px; margin: 20px auto; max-width: 600px; font-family: Arial, sans-serif;">
+					<h3>Database Connection Error</h3>
+					<p>Unable to connect to the database. Please contact the administrator.</p>
+				</div>');
+			} else {
+				die('<div style="background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; padding: 20px; border-radius: 5px; margin: 20px auto; max-width: 600px; font-family: Arial, sans-serif;">
+					<h3>LubbaCMS Database Connection Error</h3>
+					<p><strong>Error:</strong> ' . htmlspecialchars($e->getMessage()) . '</p>
+					<p>Please check your database configuration in <code>system/brain-config.php</code></p>
+				</div>');
+			}
+		}
 	}
-	catch (PDOException $e) {
-		echo ("<div style='background-repeat: no-repeat;
-		background-position: 10px 50%;
-		padding: 10px 10px 10px 10px;
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-		-moz-box-shadow: 0 1px 1px #fff inset;
-		box-shadow: 0 1px 1px #fff inset;
-		border: 1px solid maroon !important;
-		color: #000;
-		background: pink;
-		display: table;
-		margin: 0 auto;
-		font-size: 15px;
-		font-family: Tahoma;'><b>LubbaCMS Connection Error:</b><br>I was unable to connect to the provided MySQL server. Please ask the administrator to review the error message log for details and check the settings!.</div>"); 
-		die();
-	}
+}
+
+// Initialize database connection
+try {
+	$dbh = Database::getInstance($db);
+} catch (Throwable $e) {
+	error_log('Critical database error: ' . $e->getMessage());
+	die('Database initialization failed. Please check logs.');
+}
