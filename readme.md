@@ -2,6 +2,8 @@
 
 A modern Content Management System for Habbo Retro hotels, based on BrainCMS. **Now updated for PHP 8+ with Nitro WebSocket support!**
 
+##⚠️WORK IN PROGRESS!!
+
 ## 🚀 Major Updates!
 
 ✅ **PHP 8.0+ Migration Complete**  
@@ -55,9 +57,9 @@ The emulator now supports **both Flash and Nitro clients simultaneously**:
 
 ### Client Support
 - ✅ **Adobe Flash Client** - Fully supported (Port 30000)
-- ✅ **Nitro Client** - Fully supported (WebSocket Port 2096)
+- ⚠️ **Nitro Client** - Not fully ready yet! (WebSocket Port 2096)
 - ✅ **Dual-Protocol** - Both clients can run simultaneously
-- ✅ **No Flash Required** - Use Nitro for a modern, Flash-free experience
+- ⚠️ **No Flash Required** - Use Nitro for a modern, Flash-free experience
 
 ## Technology Stack
 
