@@ -22,13 +22,13 @@ The emulator now supports **both Flash and Nitro clients simultaneously**:
 
 ### Nitro Features:
 - ✅ Full room system with movement
-- ✅ Pathfinding with collision detection
+- ⚠️ Pathfinding with collision detection (dev quality)
 - ✅ Multi-level rooms (stairs support)
 - ✅ Chat & commands system
 - ✅ Navigator with room creation
 - ✅ Signs & emotes
-- ⏳ Furniture system (coming soon)
-- ⏳ Catalog (coming soon)
+- ⚠️ Furniture system (indev)
+- ⚠️ Catalog (indev)
 
 ## Screenshots
 !SOON
@@ -174,6 +174,6 @@ Based on Plus Emulator (PlusEMU) and LubbaEMU.
 
 ---
 
-**Version:** 1.0.0  
-**Last Updated:** 2025-10-15  
+**Version:** 1.0.1  
+**Last Updated:** 2026-10-16  
 **Status:** Debug/Development (Core Features Working)
