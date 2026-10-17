@@ -29,3 +29,22 @@ C:\xampp\htdocs\#EMULATOR\bin\Debug\Fleck.dll
 C:\xampp\htdocs\#EMULATOR\bin\Debug\Newtonsoft.Json.dll
 C:\xampp\htdocs\#EMULATOR\bin\Debug\Newtonsoft.Json.xml
 C:\xampp\htdocs\#EMULATOR\obj\x86\Debug\Plus Emu.6BCC57F6.Up2Date
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\Lubba Emulator.exe.config
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\Lubba Emulator.exe
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\Lubba Emulator.pdb
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\AStar.dll
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\Fleck.dll
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\HabboEncryption.dll
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\log4net.dll
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\MoreLinq.dll
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\MySql.Data.dll
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\Newtonsoft.Json.dll
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\log4net.xml
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\MoreLinq.xml
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\bin\Debug\Newtonsoft.Json.xml
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\obj\x86\Debug\Plus Emulator.csproj.AssemblyReference.cache
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\obj\x86\Debug\Lubba Emulator.exe.config
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\obj\x86\Debug\Plus Emulator.csproj.CoreCompileInputs.cache
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\obj\x86\Debug\Plus Emu.6BCC57F6.Up2Date
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\obj\x86\Debug\Lubba Emulator.exe
+c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\obj\x86\Debug\Lubba Emulator.pdb

@@ -481,9 +481,10 @@ namespace Plus.HabboHotel.Rooms
         public RoomUser GetRoomUserByVirtualId(int VirtualId)
         {
             RoomUser User = null;
-            if (!_users.TryGetValue(VirtualId, out User))
-                return null;
-            return User;
+            if (_users.TryGetValue(VirtualId, out User))
+                return User;
+
+            return _users.Values.FirstOrDefault(x => x != null && x.VirtualId == VirtualId);
         }
 
         public RoomUser GetRoomUserByHabbo(int Id)

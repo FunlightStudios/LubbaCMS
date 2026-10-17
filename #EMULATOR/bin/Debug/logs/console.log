@@ -24680,3 +24680,17 @@ System.FormatException: Die Eingabezeichenfolge hat das falsche Format.
 2025-10-15 12:38:57,219 DEBUG - Plus.Communication.WebSocket >> Received Pong from client 1
 2025-10-15 12:39:57,205 DEBUG - Plus.Communication.WebSocket >> Received packet 2596 (2 bytes) from Nitro client 1
 2025-10-15 12:39:57,205 DEBUG - Plus.Communication.WebSocket >> Received Pong from client 1
+2026-10-17 03:20:28,342 INFO  - Plus.PlusEnvironment >> Connected to Database!
+2026-10-17 03:20:28,442 ERROR - Plus.PlusEnvironment >> Fatal error during startup: System.ArgumentException: Ein Element mit dem gleichen Schlüssel wurde bereits hinzugefügt.
+   bei System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   bei System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   bei Plus.Core.Language.LanguageManager.Init() in c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\Core\Language\LanguageManager.cs:Zeile 34.
+   bei Plus.PlusEnvironment.Initialize() in c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\PlusEnvironment.cs:Zeile 139.
+2026-10-17 03:20:28,443 ERROR - Plus.PlusEnvironment >> Press a key to exit
+2026-10-17 03:20:51,409 INFO  - Plus.PlusEnvironment >> Connected to Database!
+2026-10-17 03:20:51,450 ERROR - Plus.PlusEnvironment >> Fatal error during startup: System.ArgumentException: Ein Element mit dem gleichen Schlüssel wurde bereits hinzugefügt.
+   bei System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   bei System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   bei Plus.Core.Language.LanguageManager.Init() in c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\Core\Language\LanguageManager.cs:Zeile 34.
+   bei Plus.PlusEnvironment.Initialize() in c:\xampp\htdocs.worktrees\agents-user-visibility-sync-issues\#EMULATOR\PlusEnvironment.cs:Zeile 139.
+2026-10-17 03:20:51,450 ERROR - Plus.PlusEnvironment >> Press a key to exit
